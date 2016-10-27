@@ -1,12 +1,15 @@
 import React from 'react'
 import IconBase from 'react-icon-base'
 
-export default class Caret extends React.Component {
-  render () {
-    return (
-      <IconBase viewBox="0 0 1024 1024" { ...this.props }>
-        <g transform="translate(0,1024)"><path transform="scale(1,-1)" d="M451.876 346.376l-178.436 178.436c-11.253 11.253-11.253 29.497 0 40.749s29.497 11.253 40.749 0l178.436-178.436c11.235-11.235 29.514-11.233 40.749 0l176.075 176.075c11.253 11.253 29.497 11.253 40.749 0s11.253-29.497 0-40.749l-176.077-176.075c-16.852-16.852-38.99-25.276-61.123-25.276-22.135 0-44.27 8.427-61.122 25.276z" /></g>
-      </IconBase>
-    )
-  }
+export const ParticlesCaret = (props) => {
+  return (
+    <IconBase viewBox="0 0 32 32" {...props}>
+      <g>
+<path d="M14.121 19.176l-5.576-5.576c-0.352-0.352-0.352-0.922 0-1.273s0.922-0.352 1.273 0l5.576 5.576c0.351 0.351 0.922 0.351 1.273 0l5.502-5.502c0.352-0.352 0.922-0.352 1.273 0s0.352 0.922 0 1.273l-5.502 5.502c-0.527 0.527-1.218 0.79-1.91 0.79s-1.383-0.263-1.91-0.79z"/>
+</g>
+    </IconBase>
+  )
 }
+
+export default ParticlesCaret
+

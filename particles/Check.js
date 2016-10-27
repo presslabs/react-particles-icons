@@ -1,12 +1,15 @@
 import React from 'react'
 import IconBase from 'react-icon-base'
 
-export default class Check extends React.Component {
-  render () {
-    return (
-      <IconBase viewBox="0 0 1024 1024" { ...this.props }>
-        <g transform="translate(0,1024)"><path transform="scale(1,-1)" d="M398.18 216.324c-22.136 0-44.271 8.427-61.123 25.276l-158.436 158.436c-11.253 11.253-11.253 29.497 0 40.749s29.497 11.253 40.749 0l158.436-158.436c11.235-11.235 29.514-11.233 40.749 0l386.075 386.075c11.253 11.253 29.497 11.253 40.749 0s11.253-29.497 0-40.749l-386.077-386.075c-16.852-16.852-38.99-25.276-61.123-25.276z" /></g>
-      </IconBase>
-    )
-  }
+export const ParticlesCheck = (props) => {
+  return (
+    <IconBase viewBox="0 0 32 32" {...props}>
+      <g>
+<path d="M12.443 23.24c-0.692 0-1.383-0.263-1.91-0.79l-4.951-4.951c-0.352-0.352-0.352-0.922 0-1.273s0.922-0.352 1.273 0l4.951 4.951c0.351 0.351 0.922 0.351 1.273 0l12.065-12.065c0.352-0.352 0.922-0.352 1.273 0s0.352 0.922 0 1.273l-12.065 12.065c-0.527 0.527-1.218 0.79-1.91 0.79z"/>
+</g>
+    </IconBase>
+  )
 }
+
+export default ParticlesCheck
+

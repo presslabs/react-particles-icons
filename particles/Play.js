@@ -1,12 +1,15 @@
 import React from 'react'
 import IconBase from 'react-icon-base'
 
-export default class Play extends React.Component {
-  render () {
-    return (
-      <IconBase viewBox="0 0 1024 1024" { ...this.props }>
-        <g transform="translate(0,1024)"><path transform="scale(1,-1)" d="M718.741 481.319c33.986-15.989 34.452-42.868 1.048-60.032l-361.934-185.972c-33.407-17.166-61.020-0.646-61.676 36.918l-5.992 343.267c-0.656 37.555 26.368 55.036 60.35 39.048l368.204-173.228z" /></g>
-      </IconBase>
-    )
-  }
+export const ParticlesPlay = (props) => {
+  return (
+    <IconBase viewBox="0 0 32 32" {...props}>
+      <g>
+<path d="M22.461 14.959c1.062 0.5 1.077 1.34 0.033 1.876l-11.31 5.812c-1.044 0.536-1.907 0.020-1.927-1.154l-0.187-10.727c-0.021-1.174 0.824-1.72 1.886-1.22l11.506 5.413z"/>
+</g>
+    </IconBase>
+  )
 }
+
+export default ParticlesPlay
+

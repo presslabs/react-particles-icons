@@ -1,12 +1,15 @@
 import React from 'react'
 import IconBase from 'react-icon-base'
 
-export default class Rec extends React.Component {
-  render () {
-    return (
-      <IconBase viewBox="0 0 1024 1024" { ...this.props }>
-        <g transform="translate(0,1024)"><path transform="scale(1,-1)" d="M512 618.013c93.745 0 170.013-76.268 170.013-170.013s-76.268-170.013-170.013-170.013-170.013 76.268-170.013 170.013 76.268 170.013 170.013 170.013zM512 675.641c-125.721 0-227.641-101.919-227.641-227.641s101.919-227.641 227.641-227.641 227.641 101.919 227.641 227.641c0 125.721-101.919 227.641-227.641 227.641v0z" /></g>
-      </IconBase>
-    )
-  }
+export const ParticlesRec = (props) => {
+  return (
+    <IconBase viewBox="0 0 32 32" {...props}>
+      <g>
+<path d="M16 10.687c2.93 0 5.313 2.383 5.313 5.313s-2.383 5.313-5.313 5.313-5.313-2.383-5.313-5.313 2.383-5.313 5.313-5.313zM16 8.886c-3.929 0-7.114 3.185-7.114 7.114s3.185 7.114 7.114 7.114 7.114-3.185 7.114-7.114c0-3.929-3.185-7.114-7.114-7.114v0z"/>
+</g>
+    </IconBase>
+  )
 }
+
+export default ParticlesRec
+
