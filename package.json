@@ -1,6 +1,6 @@
 {
   "name": "react-particles-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "main": "lib/index.js",
   "scripts": {
