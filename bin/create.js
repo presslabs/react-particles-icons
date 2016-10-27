@@ -44,18 +44,26 @@ glob(rootDir + '/icons/particles/*.svg', function (err, icons) {
     if (!fs.existsSync(folder)) {
       fs.mkdirSync(folder);
     }
-    const component = `import React from 'react'
-import IconBase from 'react-icon-base'
+    const component = `import React from 'react';
 
-export const ${name} = (props) => {
+const ${name} = (props) => {
+  const computedSize = props.size || '1em';
   return (
-    <IconBase viewBox="${viewBox}" {...props}>
+    <svg
+      fill="currentColor"
+      preserveAspectRatio="xMidYMid meet"
+      height={computedSize}
+      width={computedSize}
+      viewBox="${viewBox}"
+      style={{ verticalAlign: 'middle' }}
+      {...props}
+    >
       <g>${iconSvg}</g>
-    </IconBase>
-  )
+    </svg>
+  );
 }
 
-export default ${name}
+export default ${name};
 
 `;
     fs.writeFileSync(path.join(rootDir, location), component, 'utf-8');
@@ -66,8 +74,8 @@ export default ${name}
       loc = loc.replace('/' + folder, '');
       loc = '.' + loc;
       return `
-import ${name} from '${loc}'
-export { ${name} }`;
+import ${name} from '${loc}';
+export { ${name} };`;
     }).join('\n') + '\n';
     fs.writeFileSync(path.join(rootDir, folder, 'index.js'), iconsModule, 'utf-8');
   });

@@ -1,6 +1,6 @@
 {
   "name": "react-particles-icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "scripts": {
     "build": "node ./bin/create | xargs babel --out-dir lib",
@@ -46,8 +46,5 @@
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0",
     "react-dom": "^0.14.0 || ^15.0.0"
-  },
-  "dependencies": {
-    "react-icon-base": "2.0.3"
   }
 }
