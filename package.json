@@ -1,0 +1,32 @@
+{
+  "name": "react-particles-icons",
+  "version": "1.0.0",
+  "description": "A set of SVG Icons from Presslabs to use with React components",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PressLabs/react-particles-icons.git"
+  },
+  "keywords": [
+    "react",
+    "icon",
+    "icons",
+    "svg"
+  ],
+  "author": "Presslabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PressLabs/react-particles-icons/issues"
+  },
+  "homepage": "https://github.com/PressLabs/react-particles-icons#readme",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "react-icon-base": "2.0.3"
+  }
+}
