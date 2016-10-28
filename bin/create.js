@@ -10,21 +10,20 @@ const components = {};
 const types = {};
 const rootDir = path.join(__dirname, '..');
 const attrs = ['xlink:href', 'clip-path', 'fill-opacity', 'fill'];
-const cleanAtrributes = function ($el, $) {
-  _.each(attrs, function (attr) {
+const cleanAtrributes = ($el, $) => {
+  _.each(attrs, (attr) => {
     $el.removeAttr(attr);
   });
   if ($el.children().length === 0) {
     return false;
   }
-
-  $el.children().each(function (index, el) {
+  $el.children().each((index, el) => {
     cleanAtrributes($(el), $);
   });
 };
 
-glob(rootDir + '/icons/particles/*.svg', function (err, icons) {
-  icons.forEach(function (iconPath) {
+glob(rootDir + '/icons/particles/*.svg', (err, icons) => {
+  icons.forEach((iconPath) => {
     const id = path.basename(iconPath, '.svg');
     const svg = fs.readFileSync(iconPath, 'utf-8');
     const $ = cheerio.load(svg, { xmlMode: true });
@@ -32,9 +31,10 @@ glob(rootDir + '/icons/particles/*.svg', function (err, icons) {
     cleanAtrributes($svg, $);
     const iconSvg = $svg.html();
     const viewBox = $svg.attr('viewBox');
-    const folder = iconPath.replace(path.join(rootDir, 'icons') + '/', '').replace('/' + path.basename(iconPath), '');
-    const type = capitalize(camelcase(folder));
-    const name = 'PP' + capitalize(camelcase(id));
+    const folder = iconPath.replace(
+      path.join(rootDir, 'icons') + '/', ''
+    ).replace('/' + path.basename(iconPath), '');
+    const name = capitalize(camelcase(id)) + 'Icon';
     const location = iconPath.replace(path.join(rootDir, 'icons'), '').replace('.svg', '.js');
     components[name] = location;
     if (!types[folder]) {
@@ -52,11 +52,11 @@ const ${name} = (props) => {
     <svg
       fill="currentColor"
       preserveAspectRatio="xMidYMid meet"
-      height={computedSize}
-      width={computedSize}
+      height={ computedSize }
+      width={ computedSize }
       viewBox="${viewBox}"
-      style={{ verticalAlign: 'middle' }}
-      {...props}
+      style={ { verticalAlign: 'middle' } }
+      { ...props }
     >
       <g>${iconSvg}</g>
     </svg>
@@ -68,8 +68,8 @@ export default ${name};
 `;
     fs.writeFileSync(path.join(rootDir, location), component, 'utf-8');
   });
-  _.each(types, function (cmps, folder) {
-    const iconsModule = _.map(cmps, function (locatio, name) {
+  _.each(types, (cmps, folder) => {
+    const iconsModule = _.map(cmps, (locatio, name) => {
       let loc = locatio.replace('.js', '');
       loc = loc.replace('/' + folder, '');
       loc = '.' + loc;

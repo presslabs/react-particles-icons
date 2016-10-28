@@ -1,6 +1,6 @@
 {
   "name": "react-particles-icons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "scripts": {
     "build": "node ./bin/create && babel particles/*.js --out-dir lib",
@@ -17,6 +17,7 @@
     "icons",
     "svg"
   ],
+  "main": "lib/particles/index.js",
   "author": "Presslabs",
   "license": "ISC",
   "bugs": {
