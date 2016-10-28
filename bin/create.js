@@ -36,7 +36,7 @@ glob(rootDir + '/icons/particles/*.svg', (err, icons) => {
     ).replace('/' + path.basename(iconPath), '');
     const name = capitalize(camelcase(id)) + 'Icon';
     const location = iconPath.replace(path.join(rootDir, 'icons'), '').replace('.svg', '.js');
-    components[name] = location;
+    components[name] = location.toLowerCase();
     if (!types[folder]) {
       types[folder] = {};
     }
