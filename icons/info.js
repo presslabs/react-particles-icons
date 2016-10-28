@@ -1,6 +1,6 @@
 module.exports = {
   particles: {
-    name: 'Particles',
+    name: 'PP',
     url: 'http://presslabs.com/',
     attribution: 'A set of curated hadnmade icons to use with Presslabs.',
     licence: 'MIT',

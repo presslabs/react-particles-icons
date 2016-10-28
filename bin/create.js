@@ -34,7 +34,7 @@ glob(rootDir + '/icons/particles/*.svg', function (err, icons) {
     const viewBox = $svg.attr('viewBox');
     const folder = iconPath.replace(path.join(rootDir, 'icons') + '/', '').replace('/' + path.basename(iconPath), '');
     const type = capitalize(camelcase(folder));
-    const name = type + capitalize(camelcase(id));
+    const name = 'PP' + capitalize(camelcase(id));
     const location = iconPath.replace(path.join(rootDir, 'icons'), '').replace('.svg', '.js');
     components[name] = location;
     if (!types[folder]) {
@@ -73,9 +73,7 @@ export default ${name};
       let loc = locatio.replace('.js', '');
       loc = loc.replace('/' + folder, '');
       loc = '.' + loc;
-      return `
-import ${name} from '${loc}';
-export { ${name} };`;
+      return `export ${name} from '${loc}';`;
     }).join('\n') + '\n';
     fs.writeFileSync(path.join(rootDir, folder, 'index.js'), iconsModule, 'utf-8');
   });
