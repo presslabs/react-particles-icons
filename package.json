@@ -6,7 +6,7 @@
     "docs": "babel-node ./bin/generate-docs",
     "build": "node ./bin/create && babel particles/*.js --out-dir lib",
     "prepublish": "npm run build",
-    "eslint": "eslint ."
+    "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
@@ -58,5 +58,9 @@
     "react-dom": "^0.14.0 || ^15.0.0",
     "underscore": "^1.8.3",
     "validate-commit-msg": "^2.6.1"
+  },
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-strict-mode": "^6.18.0"
   }
 }

@@ -1,0 +1,12 @@
+build:
+  image: node:6.7
+  pull: true
+  commands:
+    - make build
+    - make github-pages
+
+publish:
+  npm:
+    username: $$NPM_USERNAME
+    password: $$NPM_PASSWORD
+    email: cami@presslabs.com
