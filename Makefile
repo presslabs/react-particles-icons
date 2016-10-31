@@ -1,13 +1,11 @@
-dependecies:
-	npm install -g yarn
-	yarn
+dependencies:
+	npm install
 
-tests: dependecies
-	npm run eslint
-
-build: tests
+build: dependencies
 	npm run build
 	npm run docs
 
 github-pages: dependencies
-	ls -lah
+	git add docs
+	git commit -m "New version $CI_COMMIT"
+	git push origin master

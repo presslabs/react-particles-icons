@@ -9,4 +9,6 @@ publish:
   npm:
     username: $$NPM_USERNAME
     password: $$NPM_PASSWORD
-    email: cami@presslabs.com
+    email: support@presslabs.com
+    when:
+      branch: master

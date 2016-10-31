@@ -10,7 +10,7 @@ global.React = React
 
 const indexFile = path.join(__dirname, '..', 'docs', 'sample.html')
 const indexHtml = fs.readFileSync(indexFile, 'utf-8')
-const pubDir = 'publish'
+const pubDir = 'docs'
 
 function writeFile (content) {
   const page = indexHtml.replace('{{#content}}', content)
