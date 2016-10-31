@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CoffeeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const CoffeeIcon = (props) => {
 <path d="M19.519 7.286c-0.017 0.234-0.124 0.447-0.302 0.6-0.376 0.325-0.418 0.894-0.093 1.27 0.178 0.206 0.429 0.312 0.682 0.312 0.209 0 0.418-0.072 0.588-0.219 0.541-0.468 0.869-1.118 0.921-1.832s-0.177-1.405-0.644-1.946c-0.316-0.366-0.276-0.922 0.091-1.238 0.376-0.325 0.418-0.894 0.093-1.27s-0.894-0.418-1.27-0.093c-0.541 0.468-0.869 1.118-0.921 1.832s0.177 1.405 0.644 1.947c0.153 0.178 0.228 0.404 0.211 0.638z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CoffeeIcon;
+export default CoffeeIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BackupIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const BackupIcon = (props) => {
 <path d="M23.79 18.052l-0.636 0.636c-0.175 0.175-0.473 0.051-0.473-0.196v-4.246c0-0.485-0.373-0.902-0.857-0.925-0.517-0.024-0.944 0.388-0.944 0.899v4.271c0 0.247-0.298 0.37-0.473 0.196l-0.636-0.636c-0.351-0.351-0.926-0.377-1.282-0.033-0.364 0.351-0.368 0.93-0.012 1.285l2.57 2.57c0.203 0.203 0.469 0.304 0.735 0.304s0.532-0.101 0.735-0.304l2.57-2.57c0.356-0.356 0.352-0.935-0.012-1.285-0.357-0.344-0.932-0.318-1.283 0.033z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BackupIcon;
+export default BackupIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CautionIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const CautionIcon = (props) => {
 <path d="M16.9 23.992c0 0.497-0.403 0.9-0.9 0.9s-0.9-0.403-0.9-0.9c0-0.497 0.403-0.9 0.9-0.9s0.9 0.403 0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CautionIcon;
+export default CautionIcon
 

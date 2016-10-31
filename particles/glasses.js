@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const GlassesIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const GlassesIcon = (props) => {
 <path d="M11.543 19.557c0 1.465-1.192 2.657-2.656 2.657-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9c2.458 0 4.457-2 4.457-4.457 0-0.497-0.403-0.9-0.9-0.9s-0.9 0.403-0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default GlassesIcon;
+export default GlassesIcon
 

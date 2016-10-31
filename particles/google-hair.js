@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const GoogleHairIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const GoogleHairIcon = (props) => {
 <path d="M12.581 14.821v2.358l3.221-0.003-0.062 0.175c-0.467 1.313-1.182 2.187-3.159 2.187-1.95 0-3.478-1.554-3.478-3.537s1.528-3.537 3.478-3.537c1.108 0 1.766 0.417 2.311 0.869h0c0.166-0.166 0.272-0.284 0.389-0.416 0.226-0.254 0.483-0.542 1.306-1.32-1.098-0.999-2.521-1.55-4.006-1.55-3.283 0-5.954 2.671-5.954 5.954s2.671 5.954 5.954 5.954c1.846 0 3.301-0.596 4.323-1.77 1.362-1.566 1.614-3.797 1.395-5.363h-5.718z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default GoogleHairIcon;
+export default GoogleHairIcon
 

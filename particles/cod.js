@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CodIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const CodIcon = (props) => {
 <path d="M18.87 3.563c-0.484-0.112-0.968 0.19-1.080 0.675l-5.335 23.12c-0.112 0.485 0.19 0.968 0.675 1.080 0.068 0.016 0.136 0.023 0.203 0.023 0.41 0 0.781-0.282 0.877-0.698l5.335-23.12c0.112-0.484-0.19-0.968-0.675-1.080z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CodIcon;
+export default CodIcon
 

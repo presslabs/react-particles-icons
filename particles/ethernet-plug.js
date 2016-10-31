@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const EthernetPlugIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const EthernetPlugIcon = (props) => {
 <path d="M21.171 8.314c-0.352-0.352-0.922-0.352-1.273 0l-3.773 3.773c-0.352 0.352-0.352 0.922 0 1.273 0.176 0.176 0.406 0.264 0.637 0.264s0.461-0.088 0.637-0.264l3.773-3.773c0.352-0.352 0.352-0.922 0-1.273z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default EthernetPlugIcon;
+export default EthernetPlugIcon
 

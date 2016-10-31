@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BillIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const BillIcon = (props) => {
 <path d="M19.557 16c0 2.947-1.592 5.335-3.557 5.335s-3.557-2.389-3.557-5.335c0-2.947 1.592-5.335 3.557-5.335s3.557 2.389 3.557 5.335z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BillIcon;
+export default BillIcon
 

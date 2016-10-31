@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ForbiddenIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const ForbiddenIcon = (props) => {
 <path d="M20.172 13.101c0.351-0.351 0.377-0.925 0.033-1.282-0.35-0.364-0.93-0.368-1.285-0.012l-2.284 2.284c-0.352 0.352-0.922 0.352-1.273 0l-2.283-2.284c-0.352-0.352-0.922-0.352-1.273 0s-0.352 0.922 0 1.273l2.284 2.284c0.352 0.352 0.352 0.922 0 1.273l-2.284 2.284c-0.352 0.352-0.352 0.922 0 1.273 0.176 0.176 0.406 0.264 0.637 0.264s0.461-0.088 0.637-0.264l2.283-2.284c0.352-0.352 0.922-0.352 1.273 0l2.283 2.284c0.176 0.176 0.406 0.264 0.637 0.264s0.461-0.088 0.637-0.264c0.35-0.35 0.331-0.942-0.019-1.292l-2.264-2.264c-0.352-0.352-0.352-0.922 0-1.273l2.262-2.262z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ForbiddenIcon;
+export default ForbiddenIcon
 

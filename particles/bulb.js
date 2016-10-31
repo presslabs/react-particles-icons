@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BulbIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const BulbIcon = (props) => {
 <path d="M16 5.318c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9c2.445 0 4.435 1.989 4.435 4.435 0 0.497 0.403 0.9 0.9 0.9s0.9-0.403 0.9-0.9c0-3.438-2.797-6.236-6.236-6.236z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BulbIcon;
+export default BulbIcon
 

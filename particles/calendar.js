@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CalendarIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -22,8 +22,8 @@ const CalendarIcon = (props) => {
 <path d="M16.878 22.225h-1.756c-0.497 0-0.9 0.403-0.9 0.9v1.756c0 0.497 0.403 0.9 0.9 0.9h1.756c0.497 0 0.9-0.403 0.9-0.9v-1.756c0-0.497-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CalendarIcon;
+export default CalendarIcon
 

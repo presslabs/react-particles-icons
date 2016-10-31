@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CardIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -21,8 +21,8 @@ const CardIcon = (props) => {
 <path d="M29.361 6.185h-26.721c-0.497 0-0.9 0.403-0.9 0.9v17.829c0 0.497 0.403 0.9 0.9 0.9h26.721c0.497 0 0.9-0.403 0.9-0.9v-17.829c-0-0.497-0.403-0.9-0.901-0.9zM28.46 23.114c0 0.497-0.403 0.9-0.9 0.9h-23.12c-0.497 0-0.9-0.403-0.9-0.9v-14.228c0-0.497 0.403-0.9 0.9-0.9h23.12c0.497 0 0.9 0.403 0.9 0.9v14.228z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CardIcon;
+export default CardIcon
 

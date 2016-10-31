@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const OrientIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const OrientIcon = (props) => {
 <path d="M21.135 10.481l-6.254 4.17c-0.091 0.061-0.17 0.139-0.23 0.23l-4.17 6.254c-0.168 0.252 0.132 0.552 0.384 0.384l6.254-4.17c0.091-0.061 0.17-0.139 0.23-0.23l4.17-6.254c0.168-0.252-0.132-0.552-0.384-0.384zM16 16.889c-0.491 0-0.889-0.398-0.889-0.889s0.398-0.889 0.889-0.889 0.889 0.398 0.889 0.889c0 0.491-0.398 0.889-0.889 0.889z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default OrientIcon;
+export default OrientIcon
 

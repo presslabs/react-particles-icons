@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const GaugeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -23,8 +23,8 @@ const GaugeIcon = (props) => {
 <path d="M24.055 9.905l-5.91 3.693c-0.272 0.17-0.614 0.182-0.898 0.032-0.401-0.212-0.862-0.325-1.351-0.307-1.355 0.052-2.473 1.134-2.568 2.486-0.109 1.563 1.132 2.87 2.672 2.87 1.477 0 2.679-1.202 2.679-2.679 0-0.031-0.001-0.061-0.002-0.092-0.011-0.317 0.153-0.615 0.423-0.783l5.887-3.679c0.411-0.257 0.568-0.794 0.33-1.217-0.253-0.452-0.829-0.595-1.263-0.324zM16 16.878c-0.484 0-0.878-0.394-0.878-0.878s0.394-0.878 0.878-0.878c0.484 0 0.878 0.394 0.878 0.878s-0.394 0.878-0.878 0.878z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default GaugeIcon;
+export default GaugeIcon
 

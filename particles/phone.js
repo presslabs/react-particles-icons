@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PhoneIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -26,8 +26,8 @@ const PhoneIcon = (props) => {
 <path d="M16.889 10.687h8.892c0.995 0 1.801-0.806 1.801-1.801s-0.806-1.801-1.801-1.801h-8.892c-0.995 0-1.801 0.806-1.801 1.801s0.806 1.801 1.801 1.801z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PhoneIcon;
+export default PhoneIcon
 

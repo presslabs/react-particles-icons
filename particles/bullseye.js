@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BullseyeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const BullseyeIcon = (props) => {
 <path d="M18.668 16c0 1.473-1.194 2.668-2.668 2.668s-2.668-1.194-2.668-2.668c0-1.473 1.194-2.668 2.668-2.668s2.668 1.194 2.668 2.668z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BullseyeIcon;
+export default BullseyeIcon
 

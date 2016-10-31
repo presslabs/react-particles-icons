@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CameraIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const CameraIcon = (props) => {
 <path d="M16 19.212c1.771 0 3.212-1.441 3.212-3.212 0-0.497-0.403-0.9-0.9-0.9s-0.9 0.403-0.9 0.9c0 0.778-0.633 1.412-1.412 1.412-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CameraIcon;
+export default CameraIcon
 

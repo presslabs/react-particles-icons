@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const SearchIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const SearchIcon = (props) => {
 <path d="M26.226 9.764c-0.497 0-0.9 0.403-0.9 0.9 0 1.71-1.391 3.101-3.101 3.101-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9c2.703 0 4.902-2.199 4.902-4.902 0-0.497-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default SearchIcon;
+export default SearchIcon
 

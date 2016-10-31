@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const EmployeeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const EmployeeIcon = (props) => {
 <path d="M22.908 21.663c-0.092-0.111-0.21-0.2-0.344-0.257-0.081-0.034-0.168-0.057-0.258-0.066-0.030-0.003-0.061-0.005-0.092-0.005h-5.313c-0.497 0-0.9 0.403-0.9 0.9v1.756c0 0.497 0.403 0.9 0.9 0.9h5.313c0.031 0 0.062-0.002 0.092-0.005 0.091-0.009 0.178-0.032 0.258-0.066 0.135-0.057 0.253-0.146 0.344-0.257 0.037-0.044 0.069-0.093 0.097-0.144 0.069-0.128 0.109-0.274 0.109-0.429v-1.756c0-0.155-0.039-0.302-0.109-0.429-0.028-0.051-0.060-0.099-0.097-0.144z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default EmployeeIcon;
+export default EmployeeIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BookmarkIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const BookmarkIcon = (props) => {
 <path d="M11.554 19.546h-5.335c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h5.335c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BookmarkIcon;
+export default BookmarkIcon
 

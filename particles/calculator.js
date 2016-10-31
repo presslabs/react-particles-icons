@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CalculatorIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -26,8 +26,8 @@ const CalculatorIcon = (props) => {
 <path d="M9.787 10.665h12.427c0.497 0 0.9-0.403 0.9-0.9v-3.534c0-0.497-0.403-0.9-0.9-0.9h-12.427c-0.497 0-0.9 0.403-0.9 0.9v3.534c0 0.497 0.403 0.9 0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CalculatorIcon;
+export default CalculatorIcon
 

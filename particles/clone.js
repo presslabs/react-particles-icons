@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CloneIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const CloneIcon = (props) => {
 <path d="M13.577 12.885c-0.412 0-0.78 0.188-1.024 0.482-0.19 0.23-0.304 0.524-0.304 0.846 0 0.551 0.335 1.023 0.813 1.224v0c0.158 0.067 0.333 0.104 0.515 0.104 0.581 0 1.073-0.373 1.254-0.892 0.047-0.137 0.075-0.283 0.075-0.436 0-0.363-0.146-0.691-0.382-0.931-0.241-0.245-0.576-0.397-0.947-0.397z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CloneIcon;
+export default CloneIcon
 

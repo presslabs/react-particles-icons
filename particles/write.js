@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const WriteIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const WriteIcon = (props) => {
 <path d="M14.222 28.438h-9.781c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h9.781c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default WriteIcon;
+export default WriteIcon
 

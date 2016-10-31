@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const DislikeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const DislikeIcon = (props) => {
 <path d="M7.069 8.897c0 0.491-0.398 0.889-0.889 0.889s-0.889-0.398-0.889-0.889c0-0.491 0.398-0.889 0.889-0.889s0.889 0.398 0.889 0.889z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default DislikeIcon;
+export default DislikeIcon
 

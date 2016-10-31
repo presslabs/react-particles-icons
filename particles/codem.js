@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Code3Icon = (props) => {
-  const computedSize = props.size || '1em';
+const CodemIcon = (props) => {
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const Code3Icon = (props) => {
 <path d="M26.671 20.435h-0.878v-0.878c0-0.046-0.005-0.091-0.011-0.135-0.065-0.433-0.438-0.765-0.889-0.765-0.497 0-0.9 0.403-0.9 0.9v0.878h-0.878c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h0.878v0.878c0 0.497 0.403 0.9 0.9 0.9 0.451 0 0.824-0.332 0.889-0.765 0.007-0.044 0.011-0.089 0.011-0.135v-0.878h0.878c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default Code3Icon;
+export default CodemIcon
 

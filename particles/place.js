@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PlaceIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const PlaceIcon = (props) => {
 <path d="M16 5.307c-2.464 0-4.468 2.005-4.468 4.468s2.005 4.468 4.468 4.468 4.468-2.005 4.468-4.468c0-2.464-2.005-4.468-4.468-4.468zM16 12.443c-1.473 0-2.668-1.194-2.668-2.668s1.194-2.668 2.668-2.668c1.473 0 2.668 1.194 2.668 2.668s-1.194 2.668-2.668 2.668z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PlaceIcon;
+export default PlaceIcon
 

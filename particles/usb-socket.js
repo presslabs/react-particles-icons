@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const UsbSocketIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -21,8 +21,8 @@ const UsbSocketIcon = (props) => {
 <path d="M29.327 7.975h-26.677c-0.497 0-0.9 0.403-0.9 0.9v14.261c0 0.497 0.403 0.9 0.9 0.9h26.677c0.497 0 0.9-0.403 0.9-0.9v-14.261c0-0.497-0.403-0.9-0.9-0.9zM28.427 21.335c0 0.497-0.403 0.9-0.9 0.9h-23.075c-0.497 0-0.9-0.403-0.9-0.9v-10.659c0-0.497 0.403-0.9 0.9-0.9h23.075c0.497 0 0.9 0.403 0.9 0.9v10.659z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default UsbSocketIcon;
+export default UsbSocketIcon
 

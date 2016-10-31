@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const AsiaIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const AsiaIcon = (props) => {
 <path d="M14.754 18.984c-0.026-0.018-0.053-0.025-0.079-0.025-0.102 0-0.185 0.119-0.113 0.219 0.322 0.455 0.641 0.906 1.001 1.416 0.029 0.041 0.070 0.059 0.111 0.059 0.079 0 0.157-0.067 0.139-0.163-0.116-0.624-0.473-1.108-1.059-1.506z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default AsiaIcon;
+export default AsiaIcon
 

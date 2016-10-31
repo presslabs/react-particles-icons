@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const DevIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const DevIcon = (props) => {
 <path d="M22.755 11.105c-0.493-0.061-0.943 0.288-1.005 0.782l-0.889 7.114c-0.062 0.493 0.288 0.943 0.782 1.005 0.038 0.005 0.076 0.007 0.113 0.007 0.448 0 0.835-0.333 0.892-0.789l0.889-7.114c0.062-0.493-0.288-0.943-0.782-1.005z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default DevIcon;
+export default DevIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const QuestionIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const QuestionIcon = (props) => {
 <path d="M16 20.457c-0.497 0-0.9-0.403-0.9-0.9v-0.079c0-1.566 0.859-3.042 2.241-3.851 0.812-0.476 1.316-1.355 1.316-2.294 0-1.465-1.192-2.656-2.656-2.656s-2.656 1.192-2.656 2.656c0 0.497-0.403 0.9-0.9 0.9s-0.9-0.403-0.9-0.9c0-2.458 1.999-4.457 4.457-4.457s4.457 1.999 4.457 4.457c0 1.576-0.846 3.051-2.207 3.848-0.833 0.488-1.35 1.368-1.35 2.298v0.079c0 0.497-0.403 0.9-0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default QuestionIcon;
+export default QuestionIcon
 

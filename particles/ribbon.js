@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const RibbonIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const RibbonIcon = (props) => {
 <path d="M22.21 30.229c-0.389 0-0.761-0.125-1.077-0.362l-5.133-3.85-5.133 3.85c-0.316 0.237-0.688 0.362-1.077 0.362-0.995 0-1.805-0.809-1.805-1.802v-25.754c0-0.993 0.808-1.801 1.801-1.801h12.427c0.993 0 1.801 0.808 1.801 1.801v25.754c0 0.994-0.809 1.802-1.804 1.802zM15.988 24.217c0.397-0.003 0.775 0.122 1.092 0.36l3.692 2.769c0.594 0.445 1.441 0.022 1.441-0.72l0-23.052c0-0.497-0.403-0.9-0.9-0.9h-10.626c-0.497 0-0.9 0.403-0.9 0.9v23.052c0 0.742 0.847 1.166 1.441 0.72l3.661-2.746c0.318-0.238 0.702-0.381 1.1-0.383z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default RibbonIcon;
+export default RibbonIcon
 

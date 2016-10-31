@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CodebarIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -23,8 +23,8 @@ const CodebarIcon = (props) => {
 <path d="M16 5.329v21.341h2.668v-21.341h-0.889z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CodebarIcon;
+export default CodebarIcon
 

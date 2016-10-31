@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BookIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -24,8 +24,8 @@ const BookIcon = (props) => {
 <path d="M19.334 22.236c0.088 0 0.177-0.013 0.265-0.040l2.89-0.889c0.475-0.146 0.742-0.65 0.596-1.125s-0.65-0.742-1.125-0.596l-2.89 0.889c-0.475 0.146-0.742 0.65-0.596 1.125 0.119 0.387 0.475 0.636 0.86 0.636z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BookIcon;
+export default BookIcon
 

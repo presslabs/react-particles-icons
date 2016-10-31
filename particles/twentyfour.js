@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Clock24hIcon = (props) => {
-  const computedSize = props.size || '1em';
+const TwentyfourIcon = (props) => {
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const Clock24hIcon = (props) => {
 <path d="M19.007 12.351c-0.543 1.588-1.734 3.628-2.356 4.448-0.265 0.331-0.478 0.755-0.478 1.060 0 0.462 0.252 0.728 0.901 0.728h4.104v1.165c0 0.542 0.278 0.82 0.953 0.82s0.968-0.278 0.968-0.82v-3.721c0-0.543-0.278-0.822-0.955-0.822-0.675 0-0.966 0.278-0.966 0.822v1.178h-2.913c1.046-1.073 2.715-4.026 2.715-4.912 0-0.491-0.185-0.809-0.822-0.809-0.662 0-0.966 0.331-1.151 0.861z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default Clock24hIcon;
+export default TwentyfourIcon
 

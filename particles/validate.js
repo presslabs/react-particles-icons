@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ValidateIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const ValidateIcon = (props) => {
 <path d="M11.301 14.474c-0.352-0.352-0.922-0.352-1.273 0s-0.352 0.922 0 1.273l2.894 2.894c0.336 0.336 0.799 0.527 1.274 0.527 0.012 0 0.024-0 0.035-0 0.487-0.010 0.957-0.221 1.287-0.579l10.035-10.871c0.337-0.365 0.315-0.935-0.051-1.272s-0.935-0.315-1.272 0.051l-9.399 10.183c-0.347 0.376-0.937 0.388-1.298 0.026l-2.231-2.232z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ValidateIcon;
+export default ValidateIcon
 

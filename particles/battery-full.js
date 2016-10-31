@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BatteryFullIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const BatteryFullIcon = (props) => {
 <path d="M24.797 18.668h-19.594c-0.421 0-0.762-0.341-0.762-0.762v-3.812c0-0.421 0.341-0.762 0.762-0.762h19.594c0.421 0 0.762 0.341 0.762 0.762v3.812c0 0.421-0.341 0.762-0.762 0.762z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BatteryFullIcon;
+export default BatteryFullIcon
 

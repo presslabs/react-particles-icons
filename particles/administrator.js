@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Admin2Icon = (props) => {
-  const computedSize = props.size || '1em';
+const AdministratorIcon = (props) => {
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const Admin2Icon = (props) => {
 <path d="M26.030 13.696h-1.925c-0.299 0-0.564-0.192-0.656-0.477l-0.595-1.831c-0.206-0.635-1.105-0.635-1.312 0l-0.595 1.831c-0.092 0.284-0.357 0.477-0.656 0.477h-1.925c-0.668 0-0.946 0.855-0.405 1.248l1.557 1.132c0.242 0.176 0.343 0.487 0.251 0.771l-0.595 1.831c-0.206 0.635 0.521 1.164 1.061 0.771l1.557-1.132c0.242-0.176 0.569-0.176 0.811 0l1.557 1.132c0.541 0.393 1.268-0.136 1.061-0.771l-0.595-1.831c-0.092-0.284 0.009-0.595 0.251-0.771l1.557-1.132c0.541-0.393 0.263-1.248-0.405-1.248z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default Admin2Icon;
+export default AdministratorIcon
 

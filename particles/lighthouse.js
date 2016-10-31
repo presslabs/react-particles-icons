@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const LighthouseIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const LighthouseIcon = (props) => {
 <path d="M19.873 20.048l-7.114-2.668c-0.466-0.175-0.985 0.061-1.159 0.527s0.061 0.985 0.527 1.159l7.114 2.668c0.104 0.039 0.211 0.058 0.316 0.058 0.365 0 0.708-0.223 0.843-0.585 0.175-0.466-0.061-0.985-0.527-1.159z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default LighthouseIcon;
+export default LighthouseIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const DivideIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const DivideIcon = (props) => {
 <path d="M17.801 20.424c0 0.995-0.806 1.801-1.801 1.801s-1.801-0.806-1.801-1.801c0-0.995 0.806-1.801 1.801-1.801s1.801 0.806 1.801 1.801z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default DivideIcon;
+export default DivideIcon
 

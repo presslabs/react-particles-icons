@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const MeetingIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -21,8 +21,8 @@ const MeetingIcon = (props) => {
 <path d="M18.69 16c0 1.486-1.204 2.69-2.69 2.69s-2.69-1.204-2.69-2.69c0-1.486 1.204-2.69 2.69-2.69s2.69 1.204 2.69 2.69z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default MeetingIcon;
+export default MeetingIcon
 

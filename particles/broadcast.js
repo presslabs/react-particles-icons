@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BroadcastIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const BroadcastIcon = (props) => {
 <path d="M23.59 16.921c0.069 0.016 0.137 0.024 0.205 0.024 0.409 0 0.779-0.281 0.876-0.697 0.154-0.661 0.232-1.343 0.232-2.027 0-4.909-3.994-8.903-8.903-8.903s-8.903 3.994-8.903 8.903c0 0.684 0.078 1.366 0.232 2.027 0.113 0.484 0.597 0.786 1.081 0.673s0.786-0.597 0.673-1.081c-0.123-0.527-0.185-1.071-0.185-1.618 0-3.916 3.186-7.103 7.102-7.103s7.103 3.186 7.103 7.103c0 0.547-0.062 1.091-0.185 1.618-0.113 0.484 0.188 0.968 0.673 1.081z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default BroadcastIcon;
+export default BroadcastIcon
 

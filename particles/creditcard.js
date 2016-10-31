@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CreditcardIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const CreditcardIcon = (props) => {
 <path d="M11.565 19.534h-5.335c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h5.335c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default CreditcardIcon;
+export default CreditcardIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ChipIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -32,8 +32,8 @@ const ChipIcon = (props) => {
 <path d="M5.329 21.324h-2.668c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h2.668c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ChipIcon;
+export default ChipIcon
 

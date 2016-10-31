@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const SafeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const SafeIcon = (props) => {
 <path d="M6.219 7.986c-0.497 0-0.9 0.403-0.9 0.9v14.228c0 0.497 0.403 0.9 0.9 0.9s0.9-0.403 0.9-0.9v-14.228c0-0.497-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default SafeIcon;
+export default SafeIcon
 

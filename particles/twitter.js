@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const TwitterIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const TwitterIcon = (props) => {
 <path d="M27.157 1.801h-22.313c-1.681 0-3.043 1.362-3.043 3.043v22.313c0 1.68 1.362 3.043 3.043 3.043h22.313c1.68 0 3.043-1.362 3.043-3.043v-22.313c0-1.681-1.362-3.043-3.043-3.043zM28.171 27.156c0 0.56-0.454 1.014-1.014 1.014h-22.313c-0.56 0-1.014-0.454-1.014-1.014v-22.313c0-0.56 0.454-1.014 1.014-1.014h22.313c0.56 0 1.014 0.454 1.014 1.014v22.313z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default TwitterIcon;
+export default TwitterIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PenIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const PenIcon = (props) => {
 <path d="M11.565 8.886h8.87c0.497 0 0.9-0.403 0.9-0.9v-5.313c0-0.497-0.403-0.9-0.9-0.9h-8.87c-0.497 0-0.9 0.403-0.9 0.9v5.313c0 0.497 0.403 0.9 0.9 0.9zM13.366 3.573h5.268c0.497 0 0.9 0.403 0.9 0.9v1.711c0 0.497-0.403 0.9-0.9 0.9h-5.268c-0.497 0-0.9-0.403-0.9-0.9v-1.711c0-0.497 0.403-0.9 0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PenIcon;
+export default PenIcon
 

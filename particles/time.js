@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const TimeIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const TimeIcon = (props) => {
 <path d="M15.18 18.748l-3.048 6.705c-0.271 0.596 0.165 1.273 0.82 1.273h6.095c0.655 0 1.091-0.677 0.82-1.273l-3.048-6.705c-0.32-0.704-1.32-0.704-1.639 0z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default TimeIcon;
+export default TimeIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PieIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const PieIcon = (props) => {
 <path d="M29.336 14.112c-0.468-6.107-5.341-10.98-11.448-11.448-0.023-0.002-0.046-0.003-0.069-0.003-0.49 0-0.895 0.402-0.895 0.901v10.613c0 0.497 0.403 0.9 0.9 0.9h10.613c0.522 0 0.939-0.443 0.899-0.964zM18.724 12.375v-6.666c0-0.595 0.568-1.032 1.14-0.868 1.721 0.495 3.304 1.421 4.589 2.706s2.212 2.868 2.706 4.589c0.164 0.572-0.273 1.14-0.868 1.14h-6.666c-0.497 0-0.9-0.403-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PieIcon;
+export default PieIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const KeyboardIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -28,8 +28,8 @@ const KeyboardIcon = (props) => {
 <path d="M7.986 18.668h-1.756c-0.497 0-0.9 0.403-0.9 0.9v0.867c0 0.497 0.403 0.9 0.9 0.9h1.756c0.497 0 0.9-0.403 0.9-0.9v-0.867c0-0.497-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default KeyboardIcon;
+export default KeyboardIcon
 

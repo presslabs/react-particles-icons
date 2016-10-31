@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const TicketIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -20,8 +20,8 @@ const TicketIcon = (props) => {
 <path d="M21.004 13.432h-10.008c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h10.008c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default TicketIcon;
+export default TicketIcon
 

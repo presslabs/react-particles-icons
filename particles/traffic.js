@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const TrafficIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const TrafficIcon = (props) => {
 <path d="M16 20.435c-1.967 0-3.568 1.601-3.568 3.568s1.601 3.568 3.568 3.568c1.967 0 3.568-1.601 3.568-3.568s-1.601-3.568-3.568-3.568zM16 25.77c-0.974 0-1.767-0.793-1.767-1.767s0.793-1.767 1.767-1.767 1.767 0.793 1.767 1.767-0.793 1.767-1.767 1.767z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default TrafficIcon;
+export default TrafficIcon
 

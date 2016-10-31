@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ShieldHelpIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const ShieldHelpIcon = (props) => {
 <path d="M15.1 11.579v2.62c0 0.497-0.403 0.9-0.9 0.9h-2.62c-0.485 0-0.902 0.373-0.925 0.857-0.024 0.517 0.388 0.944 0.899 0.944h2.645c0.497 0 0.9 0.403 0.9 0.9v2.62c0 0.485 0.373 0.902 0.857 0.925 0.517 0.024 0.944-0.388 0.944-0.899v-2.645c0-0.497 0.403-0.9 0.9-0.9h2.62c0.485 0 0.902-0.373 0.925-0.857 0.024-0.517-0.388-0.944-0.899-0.944h-2.645c-0.497 0-0.9-0.403-0.9-0.9v-2.645c0-0.512-0.427-0.924-0.944-0.899-0.484 0.023-0.857 0.44-0.857 0.925z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ShieldHelpIcon;
+export default ShieldHelpIcon
 

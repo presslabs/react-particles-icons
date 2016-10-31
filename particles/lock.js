@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const LockIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const LockIcon = (props) => {
 <path d="M15.886 17.782c-0.895 0.056-1.62 0.792-1.663 1.688-0.027 0.561 0.207 1.068 0.59 1.411 0.19 0.17 0.297 0.413 0.297 0.668v1.54c0 0.479 0.368 0.891 0.846 0.913 0.511 0.024 0.932-0.383 0.932-0.888v-1.545c0-0.26 0.103-0.513 0.297-0.687 0.364-0.326 0.593-0.798 0.593-1.325-0-1.020-0.858-1.839-1.892-1.775z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default LockIcon;
+export default LockIcon
 

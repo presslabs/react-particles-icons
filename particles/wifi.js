@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const WifiIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -19,8 +19,8 @@ const WifiIcon = (props) => {
 <path d="M16 16.117c-1.999 0-3.865 0.962-5.255 2.709-0.31 0.389-0.245 0.956 0.144 1.265s0.956 0.245 1.265-0.144c1.041-1.309 2.407-2.030 3.846-2.030s2.804 0.721 3.845 2.030c0.178 0.224 0.44 0.34 0.705 0.34 0.196 0 0.394-0.064 0.56-0.196 0.389-0.31 0.454-0.876 0.144-1.265-1.39-1.747-3.256-2.709-5.255-2.709z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default WifiIcon;
+export default WifiIcon
 

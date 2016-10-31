@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PythonIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const PythonIcon = (props) => {
 <path d="M28.007 12.872c-0.432-1.74-1.257-3.049-3.007-3.049h-2.257v2.671c0 2.071-1.756 3.813-3.757 3.813h-6.007c-1.646 0-3.007 1.408-3.007 3.056v5.727c0 1.63 1.417 2.589 3.007 3.056 1.904 0.56 3.73 0.661 6.007 0 1.514-0.438 3.007-1.321 3.007-3.056v-2.292h-6.007v-0.764h9.015c1.748 0 2.399-1.219 3.007-3.049 0.628-1.884 0.601-3.696-0-6.113zM19.363 24.326c0.623 0 1.129 0.511 1.129 1.143 0 0.634-0.505 1.15-1.129 1.15-0.621 0-1.129-0.516-1.129-1.15 0-0.632 0.507-1.143 1.129-1.143z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PythonIcon;
+export default PythonIcon
 

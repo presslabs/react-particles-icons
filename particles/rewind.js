@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const RewindIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const RewindIcon = (props) => {
 <path d="M25.041 10.776c0 0 0 0 0 0 1.489 0 2.701 1.213 2.701 2.703v5.042c0 1.491-1.212 2.703-2.701 2.703-0.391 0-0.772-0.084-1.132-0.251l-5.462-2.521c-0.968-0.447-1.569-1.387-1.569-2.453s0.601-2.006 1.569-2.453l5.462-2.521c0.361-0.166 0.742-0.251 1.132-0.251zM25.041 19.423c0.433 0 0.9-0.345 0.9-0.902v-5.042c0-0.557-0.467-0.902-0.9-0.902-0.128 0-0.255 0.029-0.378 0.085l-5.462 2.521c-0.485 0.224-0.523 0.682-0.523 0.818s0.038 0.593 0.523 0.818l5.462 2.521c0.122 0.056 0.249 0.085 0.378 0.085z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default RewindIcon;
+export default RewindIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const AlarmIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -21,8 +21,8 @@ const AlarmIcon = (props) => {
 <path d="M21.324 15.8c0 0.497 0.403 0.9 0.9 0.9h0.889c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9h-0.889c-0.497 0-0.9 0.403-0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default AlarmIcon;
+export default AlarmIcon
 

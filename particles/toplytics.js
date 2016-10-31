@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ToplyticsIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const ToplyticsIcon = (props) => {
 <path d="M24.381 5.333l-18.286 0.001c-0.42 0-0.761 0.341-0.761 0.761s0.341 0.761 0.761 0.761h18.286c0.421 0 0.762 0.341 0.762 0.762v16.762c0 0.421-0.341 0.762-0.762 0.762h-16.762c-0.421 0-0.762-0.341-0.762-0.762v-13.714c0-0.421 0.341-0.762 0.762-0.762h6.857c0.421 0 0.762-0.341 0.762-0.762s-0.341-0.762-0.762-0.762c-0.001 0-0.001 0-0.002 0l-6.855-0c-1.262 0-2.286 1.023-2.286 2.286v13.714c0 1.262 1.023 2.286 2.286 2.286h16.762c1.262 0 2.286-1.023 2.286-2.286v-16.762c0-1.262-1.023-2.286-2.286-2.286z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ToplyticsIcon;
+export default ToplyticsIcon
 

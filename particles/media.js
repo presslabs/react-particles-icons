@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const MediaIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const MediaIcon = (props) => {
 <path d="M25.756 23.103h-15.117c-0.471 0-0.853-0.382-0.853-0.853v0c0-0.485-0.373-0.902-0.857-0.925-0.517-0.024-0.944 0.388-0.944 0.899v0.025c0 0.471-0.382 0.853-0.853 0.853h-0.889c-0.485 0-0.902 0.373-0.925 0.857-0.024 0.517 0.388 0.944 0.899 0.944h0.915c0.471 0 0.853 0.382 0.853 0.853v0c0 0.485 0.373 0.902 0.857 0.925 0.517 0.024 0.944-0.388 0.944-0.899v-0.026c0-0.471 0.382-0.853 0.853-0.853h15.142c0.512 0 0.924-0.427 0.899-0.944-0.023-0.484-0.44-0.857-0.925-0.857z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default MediaIcon;
+export default MediaIcon
 

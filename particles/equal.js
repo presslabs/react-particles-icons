@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const EqualIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const EqualIcon = (props) => {
 <path d="M21.335 14.244h-10.671c-0.497 0-0.9-0.403-0.9-0.9s0.403-0.9 0.9-0.9h10.671c0.497 0 0.9 0.403 0.9 0.9s-0.403 0.9-0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default EqualIcon;
+export default EqualIcon
 

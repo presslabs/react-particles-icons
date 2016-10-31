@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const RackIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -22,8 +22,8 @@ const RackIcon = (props) => {
 <path d="M12.443 24.442h-4.446c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h4.446c0.429 0 0.788-0.301 0.878-0.703 0.014-0.064 0.022-0.13 0.022-0.198s-0.008-0.134-0.022-0.198c-0.090-0.402-0.449-0.703-0.878-0.703z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default RackIcon;
+export default RackIcon
 

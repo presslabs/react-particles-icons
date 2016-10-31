@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const SpeakerIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -23,8 +23,8 @@ const SpeakerIcon = (props) => {
 <path d="M16 12.443c1.964 0 3.557-1.592 3.557-3.557s-1.592-3.557-3.557-3.557-3.557 1.592-3.557 3.557 1.592 3.557 3.557 3.557zM16 7.13c0.968 0 1.756 0.788 1.756 1.756s-0.788 1.756-1.756 1.756-1.756-0.788-1.756-1.756 0.788-1.756 1.756-1.756z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default SpeakerIcon;
+export default SpeakerIcon
 

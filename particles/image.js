@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ImageIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const ImageIcon = (props) => {
 <path d="M20.446 14.233c1.477 0 2.679-1.202 2.679-2.679s-1.202-2.679-2.679-2.679-2.679 1.202-2.679 2.679 1.202 2.679 2.679 2.679z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ImageIcon;
+export default ImageIcon
 

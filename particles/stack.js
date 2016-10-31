@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const StackIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -21,8 +21,8 @@ const StackIcon = (props) => {
 <path d="M9.775 27.571h12.449c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9h-12.449c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default StackIcon;
+export default StackIcon
 

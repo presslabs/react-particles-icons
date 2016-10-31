@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const ElipsisIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const ElipsisIcon = (props) => {
 <path d="M30.227 16c0 1.964-1.592 3.557-3.557 3.557s-3.557-1.592-3.557-3.557c0-1.964 1.592-3.557 3.557-3.557s3.557 1.592 3.557 3.557z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default ElipsisIcon;
+export default ElipsisIcon
 

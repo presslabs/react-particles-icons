@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const PresslabsIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const PresslabsIcon = (props) => {
 <path d="M16 12.073h-2.356c-0.434 0-0.785-0.352-0.785-0.785s0.352-0.785 0.785-0.785h2.356c0.434 0 0.785 0.352 0.785 0.785s-0.352 0.785-0.785 0.785z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default PresslabsIcon;
+export default PresslabsIcon
 

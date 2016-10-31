@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const UploadIcon = (props) => {
-  const computedSize = props.size || '1em';
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -17,8 +17,8 @@ const UploadIcon = (props) => {
 <path d="M25.781 16.913c-0.478 0-0.866 0.388-0.866 0.866v2.623c0 1.509-1.227 2.736-2.736 2.736h-12.359c-1.509 0-2.736-1.227-2.736-2.736v-2.623c0-0.478-0.388-0.866-0.866-0.866s-0.866 0.388-0.866 0.866v2.623c0 2.463 2.004 4.468 4.468 4.468h12.359c2.463 0 4.468-2.004 4.468-4.468v-2.623c0-0.478-0.388-0.866-0.866-0.866z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default UploadIcon;
+export default UploadIcon
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Disk2Icon = (props) => {
-  const computedSize = props.size || '1em';
+const HddiskIcon = (props) => {
+  const computedSize = props.size || '1em'
   return (
     <svg
       fill="currentColor"
@@ -18,8 +18,8 @@ const Disk2Icon = (props) => {
 <path d="M14.309 22.213h-0.176c-0.497 0-0.9 0.403-0.9 0.9s0.403 0.9 0.9 0.9h0.176c0.497 0 0.9-0.403 0.9-0.9s-0.403-0.9-0.9-0.9z"/>
 </g>
     </svg>
-  );
+  )
 }
 
-export default Disk2Icon;
+export default HddiskIcon
 
