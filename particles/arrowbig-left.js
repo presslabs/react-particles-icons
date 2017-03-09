@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ArowbigLeftIcon = (props) => {
+const ArrowbigLeftIcon = (props) => {
   const computedSize = props.size || '1em'
   return (
     <svg
@@ -19,5 +19,5 @@ const ArowbigLeftIcon = (props) => {
   )
 }
 
-export default ArowbigLeftIcon
+export default ArrowbigLeftIcon
 
