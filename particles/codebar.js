@@ -13,7 +13,7 @@ const CodebarIcon = (props) => {
       { ...props }
     >
       <g>
-<title>codebar</title>
+
 <path d="M1.772 5.329h2.668v21.341h-2.668v-21.341z"/>
 <path d="M5.329 5.329h1.778v21.341h-1.778v-21.341z"/>
 <path d="M20.446 5.329h1.778v21.341h-1.778v-21.341z"/>
