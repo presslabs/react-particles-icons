@@ -31,6 +31,7 @@ glob(rootDir + '/icons/particles/*.svg', (err, icons) => {
     const $ = cheerio.load(svg, { xmlMode: true })
     const $svg = $('svg')
     cleanAtrributes($svg, $)
+    $($svg).find('title').remove()
     const iconSvg = $svg.html()
     const viewBox = $svg.attr('viewBox')
     const folder = iconPath.replace(
