@@ -6,7 +6,6 @@ export default class IconPack extends React.Component {
     return (
       <div className="icon-pack">
         <h1>{ icons.particles.name }</h1>
-        <h4>{ icons.particles.githubUrl }</h4>
         <h4>{ icons.particles.attribution }</h4>
         <code>import <strong>{ `{ AcmeIconName }` }</strong> from 'react-particles-icons'</code>
         <div className="mdl-grid">
