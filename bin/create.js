@@ -28,7 +28,9 @@ if (!fs.existsSync(DEST_FOLDER)) {
   fs.mkdirSync(DEST_FOLDER)
 }
 
-glob(path.join(rootDir, `${process.env.PARTICLES_PATH}/*.svg`), (err, icons) => {
+const PARTICLES_PATH = process.env.PARTICLES_PATH || 'node_modules/presslabs-particles-icons/SVG'
+
+glob(path.join(rootDir, `${PARTICLES_PATH}/*.svg`), (err, icons) => {
   icons.forEach((iconPath) => {
     const filename = path.basename(iconPath, '.svg')
 
