@@ -7,3 +7,4 @@ yarn.lock
 secure.yml
 /docs/index.html
 .env
+/particles
