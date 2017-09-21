@@ -4,7 +4,7 @@ import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import App from '../docs/components/App'
 import IconPack from '../docs/components/IconPack'
-import icons from '../icons/info'
+import icons from './info'
 
 global.React = React
 
