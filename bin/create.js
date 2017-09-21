@@ -1,5 +1,4 @@
-"use strict"
-
+require('dotenv').config()
 const fs = require('fs')
 const cheerio = require('cheerio')
 const camelcase = require('camelcase')
@@ -8,8 +7,7 @@ const _ = require('underscore')
 const glob = require('glob')
 const path = require('path')
 
-const components = {}
-const types = {}
+const components = []
 const rootDir = path.join(__dirname, '..')
 const attrs = ['xlink:href', 'clip-path', 'fill-opacity', 'fill']
 const cleanAtrributes = ($el, $) => {
@@ -24,9 +22,17 @@ const cleanAtrributes = ($el, $) => {
   })
 }
 
-glob(rootDir + '/icons/particles/*.svg', (err, icons) => {
+const DEST_FOLDER = 'particles'
+
+if (!fs.existsSync(DEST_FOLDER)) {
+  fs.mkdirSync(DEST_FOLDER)
+}
+
+glob(path.join(rootDir, `${process.env.PARTICLES_PATH}/*.svg`), (err, icons) => {
   icons.forEach((iconPath) => {
-    const id = path.basename(iconPath, '.svg')
+    const filename = path.basename(iconPath, '.svg')
+
+    // Process SVG file
     const svg = fs.readFileSync(iconPath, 'utf-8')
     const $ = cheerio.load(svg, { xmlMode: true })
     const $svg = $('svg')
@@ -34,19 +40,12 @@ glob(rootDir + '/icons/particles/*.svg', (err, icons) => {
     $($svg).find('title').remove()
     const iconSvg = $svg.html()
     const viewBox = $svg.attr('viewBox')
-    const folder = iconPath.replace(
-      path.join(rootDir, 'icons') + '/', ''
-    ).replace('/' + path.basename(iconPath), '')
-    const name = capitalize(camelcase(id)) + 'Icon'
-    const location = iconPath.replace(path.join(rootDir, 'icons'), '').replace('.svg', '.js')
-    components[name] = location.toLowerCase()
-    if (!types[folder]) {
-      types[folder] = {}
-    }
-    types[folder][name] = location
-    if (!fs.existsSync(folder)) {
-      fs.mkdirSync(folder)
-    }
+
+    const name = `${capitalize(camelcase(filename))}Icon`
+    components.push({
+      component: name,
+      file: `./${filename}`
+    })
     const component = `import React from 'react'
 
 const ${name} = (props) => {
@@ -60,24 +59,15 @@ const ${name} = (props) => {
       viewBox="${viewBox}"
       style={ { verticalAlign: 'middle' } }
       { ...props }
-    >
-      <g>${iconSvg}</g>
-    </svg>
+    >${iconSvg}</svg>
   )
 }
 
 export default ${name}
 
 `
-    fs.writeFileSync(path.join(rootDir, location), component, 'utf-8')
+    fs.writeFileSync(path.join(rootDir, `${DEST_FOLDER}/${filename}.js`), component, 'utf-8')
   })
-  _.each(types, (cmps, folder) => {
-    const iconsModule = _.map(cmps, (locatio, name) => {
-      let loc = locatio.replace('.js', '')
-      loc = loc.replace('/' + folder, '')
-      loc = '.' + loc
-      return `export ${name} from '${loc}'`
-    }).join('\n') + '\n'
-    fs.writeFileSync(path.join(rootDir, folder, 'index.js'), iconsModule, 'utf-8')
-  })
+  const imports = _.map(components, (component) => `export ${component.component} from '${component.file}'`)
+  fs.writeFileSync(path.join(rootDir, DEST_FOLDER, 'index.js'), `${imports.join('\n')}\n`, 'utf-8')
 })
