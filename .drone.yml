@@ -1,23 +1,27 @@
-build:
-  image: node:6.7
-  pull: true
-  commands:
-    - make build
-    - make github-pages
-  when:
-    branch: master
-
-publish:
-  npm:
-    username: $$NPM_USERNAME
-    password: $$NPM_PASSWORD
-    email: support@presslabs.com
+pipeline:
+  build:
+    image: node:6.7
+    pull: true
+    commands:
+      - make build
+      - make github-pages
     when:
       branch: master
 
-  git_push:
-    branch: gh-pages
-    remote: git@github.com:/Presslabs/react-particles-icons.git
+  npm:
+    image: plugins/npm
+    username: $NPM_USERNAME
+    password: $NPM_PASSWORD
+    email: support@presslabs.com
+    secrets: [ NPM_USERNAME, NPM_PASSWORD ]
+    when:
+      branch: master
+
+  github_pages:
+    image: appleboy/drone-git-push
     force: true
+    branch: gh-pages
+    remote: https://github.com/Presslabs/react-particles-icons.git
+    commit_message: "Update static page"
     when:
       branch: master
