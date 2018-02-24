@@ -20,6 +20,7 @@ const cleanAtrributes = ($el, $) => {
   $el.children().each((index, el) => {
     cleanAtrributes($(el), $)
   })
+  return true
 }
 
 const DEST_FOLDER = 'particles'
@@ -28,7 +29,7 @@ if (!fs.existsSync(DEST_FOLDER)) {
   fs.mkdirSync(DEST_FOLDER)
 }
 
-const PARTICLES_PATH = process.env.PARTICLES_PATH || 'node_modules/presslabs-particles-icons/SVG'
+const PARTICLES_PATH = process.env.PARTICLES_PATH || 'node_modules/presslabs-particles-icons/svg'
 
 glob(path.join(rootDir, `${PARTICLES_PATH}/*.svg`), (err, icons) => {
   icons.forEach((iconPath) => {

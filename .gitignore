@@ -3,8 +3,8 @@
 /publish
 /lib
 npm-debug.log
-yarn.lock
 secure.yml
 /docs/index.html
 .env
 /particles
+.DS_Store
