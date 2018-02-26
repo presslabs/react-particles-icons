@@ -1,5 +1,5 @@
 /node_modules
-/dist
+/demo
 /publish
 /lib
 npm-debug.log

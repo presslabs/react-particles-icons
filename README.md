@@ -1,17 +1,29 @@
 # React Particles icons
 
 ```
-npm install react-particles-icons --save
+yarn add react-particles-icons
 ```
 
 ## Usage
 
 ```
-import { Home } from 'react-particles-icons';
+import { AddIcon } from 'react-particles-icons';
 
-class Logo extends React.Component {
+class Button extends React.Component {
     render() {
-        return <div className="logo"><Home /></div>
+        return <div><AddIcon /></div>
+    }
+}
+```
+
+or
+
+```
+import Particle from 'react-particles-icons';
+
+class Button extends React.Component {
+    render() {
+        return <div><Particle name="add" /></div>
     }
 }
 ```
