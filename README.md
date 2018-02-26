@@ -27,3 +27,20 @@ class Button extends React.Component {
     }
 }
 ```
+
+## Development
+
+Build icons:
+```
+yarn build
+```
+
+Build demo:
+```
+yarn demo
+```
+
+View/modify demo:
+```
+yarn dev
+```
