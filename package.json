@@ -25,8 +25,7 @@
     "url": "https://github.com/PressLabs/react-particles-icons/issues"
   },
   "homepage": "https://github.com/PressLabs/react-particles-icons#readme",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.0.0-beta.39",
     "@babel/core": "^7.0.0-beta.39",
     "@babel/node": "^7.0.0-beta.39",
@@ -37,7 +36,6 @@
     "@babel/register": "^7.0.0-beta.39",
     "autoprefixer-loader": "^3.2.0",
     "babel-loader": "8.0.0-beta.0",
-    "cheerio": "^1.0.0-rc.2",
     "classnames": "^2.2.5",
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
@@ -50,23 +48,27 @@
     "eslint-plugin-vue": "^4.2.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
-    "glob": "^7.1.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.30.1",
-    "lodash": "^4.17.4",
+    "node-sass": "^4.7.2",
     "paper-jsdom": "^0.11.5",
     "path": "^0.12.7",
-    "presslabs-particles-icons": "^2.0.3",
     "prettier": "^1.10.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "vue": "^2.5.13",
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1",
-    "webpack-merge": "^4.1.1",
     "webpack-px-to-rem": "^0.1.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "presslabs-particles-icons": "^2.0.4",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "vue": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
   }
 }
