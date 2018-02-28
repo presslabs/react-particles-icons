@@ -2,12 +2,12 @@
   <footer class="footer">
     <div class="cols">
       <div class="col">
-        <a href="https://www.presslabs.com/" class="logo"><particle>presslabs</particle></a>
+        <a href="https://www.presslabs.com/" class="logo"><particle size="48" name="presslabs"></particle></a>
       </div>
       <div class="col">
-        <p class="copyright">© 2017-2018 Presslabs.</p>
-        <p class="trademark">Presslabs® is a registered trademark in the USA by Presslabs SRL, based in the European Union under number RO28378350.</p>
-        <p class="presslabs"><particle>eu_flag_dark</particle>Engineered in Europe, deployed worldwide.</p>
+        <p class="copyright">&copy; 2017-{{ new Date().getFullYear() }} Presslabs.</p>
+        <p class="trademark">Presslabs&reg; is a registered trademark in the USA by Presslabs SRL, based in the European Union under number RO28378350.</p>
+        <p class="presslabs"><particle name="eu_flag_dark"></particle>Engineered in Europe, deployed worldwide.</p>
       </div>
       <div class="col">
         <h6>PRESSLABS</h6>
@@ -28,11 +28,12 @@
       <div class="col">
         <h6>REACH US</h6>
         <ul class="footer-nav socials">
-          <li><a href="https://www.facebook.com/presslabs/"><particle>facebook</particle></a></li>
-          <li><a href="https://twitter.com/presslabs/"><particle>twitter</particle></a></li>
-          <li><a href="https://github.com/presslabs"><particle>github</particle></a></li>
-          <li><a href="https://www.linkedin.com/company-beta/2188682/"><particle>linkedin</particle></a></li>
-          <li><a href="http://profiles.wordpress.org/presslabs/"><particle>wordpress</particle></a></li>
+          <li><a href="https://www.facebook.com/presslabs/"><particle name="facebook"></particle></a></li>
+          <li><a href="https://twitter.com/presslabs/"><particle name="twitter"></particle></a></li>
+          <li><a href="https://github.com/presslabs"><particle name="github"></particle></a></li>
+          <li><a href="https://www.linkedin.com/company-beta/2188682/"><particle name="linkedin"></particle></a></li>
+          <li><a href="http://profiles.wordpress.org/presslabs/"><particle name="wordpress"></particle></a></li>
+          <li><a href="https://www.xing.com/companies/presslabs/"><particle name="xing"></particle></a></li>
         </ul>
       </div>
     </div>
@@ -86,11 +87,12 @@ export default {
       display: flex;
       li {
         flex: 1;
-        i {
-          font-size: 24px;
-        }
+      }
+      a {
+        color: lighten($secondColor, 10%);
       }
       a:hover {
+        color: $secondColor;
         text-decoration: none;
       }
     }
@@ -109,10 +111,9 @@ export default {
   }
   p.presslabs {
     margin-left: 30px;
-    text-indent: -15px;
-    i {
-      font-size: 20px;
-      margin-right: 10px;
+    text-indent: -30px;
+    svg {
+      margin-right: 8px;
       color: $purple-1;
       vertical-align: middle;
     }
@@ -121,10 +122,9 @@ export default {
     text-decoration: none;
     margin-bottom: 30px;
     display: block;
-    i {
+    svg {
       display: block;
       color: $green-1;
-      font-size: 48px;
     }
   }
 }

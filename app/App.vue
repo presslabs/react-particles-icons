@@ -3,7 +3,7 @@
     <div class="topbar">
       <div class="bar-section branding">
         <a href="#">
-          <particle :class="[ 'logo' ]">particles_alt</particle> React Particles Icons
+          <particle :class="[ 'logo' ]" :size="40" name="particles_alt"></particle> React Particles Icons
         </a>
       </div>
       <div class="bar-section input-wrapper search">
@@ -151,8 +151,7 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
     font-weight: bold;
     line-height: 36px;
   }
-  i.logo {
-    font-size: 40px;
+  svg.logo {
     margin: 0 10px 0 0;
     color: $gray-8;
     float: left;
