@@ -78,19 +78,22 @@ export default ${name}
   })
 
   const component = `import React from 'react'
+import PropTypes from 'prop-types'
 import iconsData from 'presslabs-particles-icons/dist/icons/particles-data.json'
 
 const Particle = (props) => {
-  const { size, children } = props
-  const computedSize = size || '1em'
-  const particleData = iconsData[children] || null
+  const { size, name, children } = props
+  const particle = name && name || children
+  const particleData = iconsData[particle] || null
+  if (particleData === null) console.error('Particle "' + particle + '" not found!')
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
       preserveAspectRatio="xMidYMid meet"
-      height={ computedSize }
-      width={ computedSize }
+      height={ size }
+      width={ size }
       viewBox="0 0 64 64"
       style={ { verticalAlign: 'middle' } }
       { ...props }
@@ -98,6 +101,16 @@ const Particle = (props) => {
       <path d={ particleData } />
     </svg>
   )
+}
+
+Particle.propTypes = {
+  size: PropTypes.number,
+  name: PropTypes.string,
+  children: PropTypes.string,
+}
+
+Particle.defaultProps = {
+  size: 16,
 }
 
 export default Particle

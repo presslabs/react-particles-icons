@@ -1,6 +1,6 @@
 {
   "name": "react-particles-icons",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.js",
@@ -66,6 +66,7 @@
     "glob": "^7.1.2",
     "lodash": "^4.17.4",
     "presslabs-particles-icons": "^2.0.5",
+    "prop-types": "^15.6.1",
     "uglifyjs-webpack-plugin": "^1.1.8",
     "vue": "^2.5.13",
     "webpack": "^3.10.0",
