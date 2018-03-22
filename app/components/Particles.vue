@@ -5,8 +5,8 @@
     :key="i"
     :particle="particle"
     @click="zoom(particle, i)"
-    :size="size"
     :class="{ selected: particle === particles[index] }"
+    :style="{ fontSize: `${size}px` }"
     ></particle-icon>
   </div>
 </template>
@@ -40,11 +40,11 @@ export default {
   overflow: hidden;
   padding: 0 1px 1px 0;
   user-select: none;
-  .selected svg {
+  .selected i {
     background-color: $gray-1;
     color: #fff;
   }
-  svg {
+  .particle {
     display: block;
     float: left;
     margin: 0 -1px -1px 0;

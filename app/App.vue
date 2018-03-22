@@ -3,7 +3,7 @@
     <div class="topbar">
       <div class="bar-section branding">
         <a href="#">
-          <particle :class="[ 'logo' ]" :size="40" name="particles_alt"></particle> React Particles Icons
+          <particle :class="[ 'logo' ]">particles_alt</particle> React Particles Icons
         </a>
       </div>
       <div class="bar-section input-wrapper search">
@@ -36,12 +36,12 @@
 </template>
 
 <script>
-import particlesData from 'presslabs-particles-icons/dist/icons/particles.json'
 import Particles from './components/Particles'
 import ParticleCard from './components/ParticleCard'
 import ParticleIcon from './components/ParticleIcon'
 import Particle from './components/Particle'
 import AppFooter from './components/Footer'
+import particlesData from 'presslabs-particles-icons/dist/icons/particles.json'
 
 export default {
   data: function () {
@@ -99,7 +99,7 @@ export default {
 @import "./components/colors";
 
 $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
-@import "~presslabs-particles-icons/dist/css/particles";
+@import "~presslabs-particles-icons";
 
 #app {
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
@@ -151,7 +151,8 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
     font-weight: bold;
     line-height: 36px;
   }
-  svg.logo {
+  i.logo {
+    font-size: 40px;
     margin: 0 10px 0 0;
     color: $gray-8;
     float: left;

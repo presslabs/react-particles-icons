@@ -1,10 +1,12 @@
 {
   "name": "react-particles-icons",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "scripts": {
+    "prepublish": "del-cli dist && babel-node ./bin/create.js && BABEL_ENV=publish babel particles/*.js --out-dir lib",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "node ./bin/create && babel particles/*.js --out-dir lib",
+    "dump": "babel-node ./bin/create.js",
+    "build": "babel-node ./bin/create.js && babel particles/*.js --out-dir lib",
     "demo": "webpack --config webpack.prod.js",
     "lint": "eslint ."
   },
@@ -19,6 +21,11 @@
     "svg"
   ],
   "main": "lib/index.js",
+  "files": [
+    "lib",
+    "particles",
+    "LICENSE-MIT"
+  ],
   "author": "Presslabs",
   "license": "ISC",
   "bugs": {
@@ -36,9 +43,11 @@
     "@babel/register": "^7.0.0-beta.39",
     "autoprefixer-loader": "^3.2.0",
     "babel-loader": "8.0.0-beta.0",
+    "cheerio": "^1.0.0-rc.2",
     "classnames": "^2.2.5",
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
+    "del-cli": "^1.1.0",
     "dotenv": "^5.0.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
@@ -48,28 +57,27 @@
     "eslint-plugin-vue": "^4.2.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
+    "glob": "^7.1.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
     "paper-jsdom": "^0.11.5",
     "path": "^0.12.7",
     "prettier": "^1.10.2",
+    "prop-types": "^15.6.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "vue": "^2.5.13",
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1",
     "webpack-px-to-rem": "^0.1.1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "glob": "^7.1.2",
     "lodash": "^4.17.4",
-    "presslabs-particles-icons": "^2.0.5",
-    "prop-types": "^15.6.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "vue": "^2.5.13",
-    "webpack": "^3.10.0",
-    "webpack-merge": "^4.1.1"
+    "presslabs-particles-icons": "^3.1.1"
   }
 }

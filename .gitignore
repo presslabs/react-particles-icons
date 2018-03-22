@@ -3,6 +3,7 @@
 /publish
 /lib
 npm-debug.log
+yarn-error.log
 secure.yml
 /docs/index.html
 .env
