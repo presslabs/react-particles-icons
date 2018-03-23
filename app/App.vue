@@ -3,7 +3,7 @@
     <div class="topbar">
       <div class="bar-section branding">
         <a href="#">
-          <particle :class="[ 'logo' ]">particles_alt</particle> React Particles Icons
+          <particle :class="[ 'logo' ]">particles_alt</particle> <span>React Particles Icons</span>
         </a>
       </div>
       <div class="bar-section input-wrapper search">
@@ -11,6 +11,11 @@
       </div>
       <div class="bar-section input-wrapper size">
         <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
+      </div>
+      <div class="bar-section github">
+        <a href="https://github.com/PressLabs/react-particles-icons" target="_blank">
+          <particle :class="[ 'github' ]" name="github"></particle> <span>Github Project</span>
+        </a>
       </div>
     </div>
     <div class="particles-show">
@@ -115,10 +120,9 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
 .topbar {
   background: $gray-1;
   display: flex;
-  flex-direction: column;
+  display: flex;
   position: absolute;
   @media screen and (min-width: 768px) {
-    flex-direction: row;
     position: fixed;
   }
   padding: 0 20px;
@@ -139,7 +143,7 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
 }
 .bar-section.branding {
   text-align: left;
-  flex: 1;
+  flex: 0 0 30px;
   @media screen and (min-width: 768px) {
     flex: 0 0 250px;
   }
@@ -148,8 +152,14 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
     padding: 10px 0;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    line-height: 36px;
+    span {
+      font-weight: bold;
+      line-height: 40px;
+      display: none;
+      @media screen and (min-width: 768px) {
+        display: inline;
+      }
+    }
   }
   i.logo {
     font-size: 40px;
@@ -157,6 +167,42 @@ $particles-font-path: "~presslabs-particles-icons/dist/fonts/" !default;
     color: $gray-8;
     float: left;
     vertical-align: middle;
+  }
+}
+.bar-section.github {
+  text-align: right;
+  flex: 0 0 30px;
+  @media screen and (min-width: 768px) {
+    flex: 0 0 200px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    display: flex;
+
+    span {
+      line-height: 24px;
+      display: none;
+      @media screen and (min-width: 768px) {
+        display: inline;
+      }
+    }
+
+    i {
+      width: 24px;
+      margin: 0;
+      display: block;
+      font-size: 24px;
+      @media screen and (min-width: 768px) {
+        margin-right: 10px;
+      }
+    }
+
+    &:hover {
+      color: $blue-3;
+    }
   }
 }
 .input-wrapper {
