@@ -1,6 +1,6 @@
 {
   "name": "react-particles-icons",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "A set of SVG Icons from Presslabs to use with React components",
   "scripts": {
     "prepublish": "del-cli dist && babel-node ./bin/create.js && BABEL_ENV=publish babel particles/*.js --out-dir lib",
