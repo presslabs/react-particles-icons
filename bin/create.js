@@ -19,7 +19,7 @@ _.map(particles, (icon, key) => {
   })
 
   const name = `${_.startCase(className).replace(/ /g, '')}Icon`
-  const iconSvg = `<path d="${icon[0]}" transform="matrix(1 0 0 -1 0 512)" />`
+  const iconSvg = `<path d="${icon[0]}" />`
   const viewBox = '0 0 512 512'
 
   const component = `import React from 'react'
@@ -75,7 +75,7 @@ const Particle = (props) => {
       style={ { verticalAlign: 'middle' } }
       { ...props }
     >
-      <path d={ particleData } transform="matrix(1 0 0 -1 0 512)" />
+      <path d={ particleData } />
     </svg>
   )
 }
