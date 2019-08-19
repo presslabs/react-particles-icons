@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:presslabs/react-particles-icons.git",
+    "url": "git@github.com:presslabs/react-particles-icons.git"
   },
   "keywords": [
     "palantir",
