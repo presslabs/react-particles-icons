@@ -1,2674 +1,2674 @@
 [
   {
     "iconName": "account-circle",
-    "content": "\\e600"
+    "content": "\\e900"
   },
   {
     "iconName": "account-female-add",
-    "content": "\\e601"
+    "content": "\\e901"
   },
   {
     "iconName": "account-female-delete",
-    "content": "\\e602"
+    "content": "\\e902"
   },
   {
     "iconName": "account-female-down",
-    "content": "\\e603"
+    "content": "\\e903"
   },
   {
     "iconName": "account-female-ok",
-    "content": "\\e604"
+    "content": "\\e904"
   },
   {
     "iconName": "account-female-pending",
-    "content": "\\e605"
+    "content": "\\e905"
   },
   {
     "iconName": "account-female-remove",
-    "content": "\\e606"
+    "content": "\\e906"
   },
   {
     "iconName": "account-female-time",
-    "content": "\\e607"
+    "content": "\\e907"
   },
   {
     "iconName": "account-female-up",
-    "content": "\\e608"
+    "content": "\\e908"
   },
   {
     "iconName": "account-female",
-    "content": "\\e609"
+    "content": "\\e909"
   },
   {
     "iconName": "account-male-add",
-    "content": "\\e60a"
+    "content": "\\e90a"
   },
   {
     "iconName": "account-male-delete",
-    "content": "\\e60b"
+    "content": "\\e90b"
   },
   {
     "iconName": "account-male-down",
-    "content": "\\e60c"
+    "content": "\\e90c"
   },
   {
     "iconName": "account-male-ok",
-    "content": "\\e60d"
+    "content": "\\e90d"
   },
   {
     "iconName": "account-male-pending",
-    "content": "\\e60e"
+    "content": "\\e90e"
   },
   {
     "iconName": "account-male-remove",
-    "content": "\\e60f"
+    "content": "\\e90f"
   },
   {
     "iconName": "account-male-time",
-    "content": "\\e610"
+    "content": "\\e910"
   },
   {
     "iconName": "account-male-up",
-    "content": "\\e611"
+    "content": "\\e911"
   },
   {
     "iconName": "account-male",
-    "content": "\\e612"
+    "content": "\\e912"
   },
   {
     "iconName": "account-square",
-    "content": "\\e613"
+    "content": "\\e913"
   },
   {
     "iconName": "accounts-add",
-    "content": "\\e614"
+    "content": "\\e914"
   },
   {
     "iconName": "accounts-delete",
-    "content": "\\e615"
+    "content": "\\e915"
   },
   {
     "iconName": "accounts-down",
-    "content": "\\e616"
+    "content": "\\e916"
   },
   {
     "iconName": "accounts-ok",
-    "content": "\\e617"
+    "content": "\\e917"
   },
   {
     "iconName": "accounts-pending",
-    "content": "\\e618"
+    "content": "\\e918"
   },
   {
     "iconName": "accounts-remove",
-    "content": "\\e619"
+    "content": "\\e919"
   },
   {
     "iconName": "accounts-time",
-    "content": "\\e61a"
+    "content": "\\e91a"
   },
   {
     "iconName": "accounts-up",
-    "content": "\\e61b"
+    "content": "\\e91b"
   },
   {
     "iconName": "accounts",
-    "content": "\\e61c"
+    "content": "\\e91c"
   },
   {
     "iconName": "add-circle",
-    "content": "\\e61d"
+    "content": "\\e91d"
   },
   {
     "iconName": "add-square",
-    "content": "\\e61e"
+    "content": "\\e91e"
   },
   {
     "iconName": "add",
-    "content": "\\e61f"
+    "content": "\\e91f"
   },
   {
     "iconName": "agenda",
-    "content": "\\e620"
+    "content": "\\e920"
   },
   {
     "iconName": "aid-kit",
-    "content": "\\e621"
+    "content": "\\e921"
   },
   {
     "iconName": "algolia",
-    "content": "\\e622"
+    "content": "\\e922"
   },
   {
     "iconName": "alpine",
-    "content": "\\e623"
+    "content": "\\e923"
   },
   {
     "iconName": "anchor",
-    "content": "\\e624"
+    "content": "\\e924"
   },
   {
     "iconName": "android",
-    "content": "\\e625"
+    "content": "\\e925"
   },
   {
     "iconName": "ansible",
-    "content": "\\e626"
+    "content": "\\e926"
   },
   {
     "iconName": "app",
-    "content": "\\e627"
+    "content": "\\e927"
   },
   {
     "iconName": "apple",
-    "content": "\\e628"
+    "content": "\\e928"
   },
   {
     "iconName": "area-rectangle",
-    "content": "\\e629"
+    "content": "\\e929"
   },
   {
     "iconName": "area",
-    "content": "\\e62a"
+    "content": "\\e92a"
   },
   {
     "iconName": "array-alt",
-    "content": "\\e62b"
+    "content": "\\e92b"
   },
   {
     "iconName": "array",
-    "content": "\\e62c"
+    "content": "\\e92c"
   },
   {
     "iconName": "arrow-alt-se",
-    "content": "\\e62d"
+    "content": "\\e92d"
   },
   {
     "iconName": "arrow-alt-sw",
-    "content": "\\e62e"
+    "content": "\\e92e"
   },
   {
     "iconName": "arrow-e-nw",
-    "content": "\\e62f"
+    "content": "\\e92f"
   },
   {
     "iconName": "arrow-e-sw",
-    "content": "\\e630"
+    "content": "\\e930"
   },
   {
     "iconName": "arrow-e",
-    "content": "\\e631"
+    "content": "\\e931"
   },
   {
     "iconName": "arrow-n-se",
-    "content": "\\e632"
+    "content": "\\e932"
   },
   {
     "iconName": "arrow-n-sw",
-    "content": "\\e633"
+    "content": "\\e933"
   },
   {
     "iconName": "arrow-n",
-    "content": "\\e634"
+    "content": "\\e934"
   },
   {
     "iconName": "arrow-ne",
-    "content": "\\e635"
+    "content": "\\e935"
   },
   {
     "iconName": "arrow-nw",
-    "content": "\\e636"
+    "content": "\\e936"
   },
   {
     "iconName": "arrow-s-ne",
-    "content": "\\e637"
+    "content": "\\e937"
   },
   {
     "iconName": "arrow-s-nw",
-    "content": "\\e638"
+    "content": "\\e938"
   },
   {
     "iconName": "arrow-s",
-    "content": "\\e639"
+    "content": "\\e939"
   },
   {
     "iconName": "arrow-se",
-    "content": "\\e63a"
+    "content": "\\e93a"
   },
   {
     "iconName": "arrow-sw",
-    "content": "\\e63b"
+    "content": "\\e93b"
   },
   {
     "iconName": "arrow-w-ne",
-    "content": "\\e63c"
+    "content": "\\e93c"
   },
   {
     "iconName": "arrow-w-se",
-    "content": "\\e63d"
+    "content": "\\e93d"
   },
   {
     "iconName": "arrow-w",
-    "content": "\\e63e"
+    "content": "\\e93e"
   },
   {
     "iconName": "arrows-away",
-    "content": "\\e63f"
+    "content": "\\e93f"
   },
   {
     "iconName": "arrows-in",
-    "content": "\\e640"
+    "content": "\\e940"
   },
   {
     "iconName": "at",
-    "content": "\\e641"
+    "content": "\\e941"
   },
   {
     "iconName": "attachment",
-    "content": "\\e642"
+    "content": "\\e942"
   },
   {
     "iconName": "autover",
-    "content": "\\e643"
+    "content": "\\e943"
   },
   {
     "iconName": "award-alt",
-    "content": "\\e644"
+    "content": "\\e944"
   },
   {
     "iconName": "award",
-    "content": "\\e645"
+    "content": "\\e945"
   },
   {
     "iconName": "aws",
-    "content": "\\e646"
+    "content": "\\e946"
   },
   {
     "iconName": "ayk",
-    "content": "\\e647"
+    "content": "\\e947"
   },
   {
     "iconName": "badge-delete",
-    "content": "\\e648"
+    "content": "\\e948"
   },
   {
     "iconName": "badge-ok",
-    "content": "\\e649"
+    "content": "\\e949"
   },
   {
     "iconName": "bag",
-    "content": "\\e64a"
+    "content": "\\e94a"
   },
   {
     "iconName": "balance",
-    "content": "\\e64b"
+    "content": "\\e94b"
   },
   {
     "iconName": "bank",
-    "content": "\\e64c"
+    "content": "\\e94c"
   },
   {
     "iconName": "barrier-down",
-    "content": "\\e64d"
+    "content": "\\e94d"
   },
   {
     "iconName": "barrier-up",
-    "content": "\\e64e"
+    "content": "\\e94e"
   },
   {
     "iconName": "bathroom",
-    "content": "\\e64f"
+    "content": "\\e94f"
   },
   {
     "iconName": "battery-charging",
-    "content": "\\e650"
+    "content": "\\e950"
   },
   {
     "iconName": "battery-empty",
-    "content": "\\e651"
+    "content": "\\e951"
   },
   {
     "iconName": "battery-full",
-    "content": "\\e652"
+    "content": "\\e952"
   },
   {
     "iconName": "battery-low",
-    "content": "\\e653"
+    "content": "\\e953"
   },
   {
     "iconName": "bed-double",
-    "content": "\\e654"
+    "content": "\\e954"
   },
   {
     "iconName": "bed-single",
-    "content": "\\e655"
+    "content": "\\e955"
   },
   {
     "iconName": "bed",
-    "content": "\\e656"
+    "content": "\\e956"
   },
   {
     "iconName": "beer",
-    "content": "\\e657"
+    "content": "\\e957"
   },
   {
     "iconName": "bell-alt",
-    "content": "\\e658"
+    "content": "\\e958"
   },
   {
     "iconName": "bell",
-    "content": "\\e659"
+    "content": "\\e959"
   },
   {
     "iconName": "bicycle",
-    "content": "\\e65a"
+    "content": "\\e95a"
   },
   {
     "iconName": "bill",
-    "content": "\\e65b"
+    "content": "\\e95b"
   },
   {
     "iconName": "bills",
-    "content": "\\e65c"
+    "content": "\\e95c"
   },
   {
     "iconName": "bin-full",
-    "content": "\\e65d"
+    "content": "\\e95d"
   },
   {
     "iconName": "bin",
-    "content": "\\e65e"
+    "content": "\\e95e"
   },
   {
     "iconName": "bitbucket",
-    "content": "\\e65f"
+    "content": "\\e95f"
   },
   {
     "iconName": "bitpoke",
-    "content": "\\e660"
+    "content": "\\e960"
   },
   {
     "iconName": "book-open-text",
-    "content": "\\e661"
+    "content": "\\e961"
   },
   {
     "iconName": "book-open",
-    "content": "\\e662"
+    "content": "\\e962"
   },
   {
     "iconName": "book",
-    "content": "\\e663"
+    "content": "\\e963"
   },
   {
     "iconName": "bookmark",
-    "content": "\\e664"
+    "content": "\\e964"
   },
   {
     "iconName": "bricks",
-    "content": "\\e665"
+    "content": "\\e965"
   },
   {
     "iconName": "bucket",
-    "content": "\\e666"
+    "content": "\\e966"
   },
   {
     "iconName": "bug",
-    "content": "\\e667"
+    "content": "\\e967"
   },
   {
     "iconName": "bus-mini",
-    "content": "\\e668"
+    "content": "\\e968"
   },
   {
     "iconName": "bus-small",
-    "content": "\\e669"
+    "content": "\\e969"
   },
   {
     "iconName": "bus",
-    "content": "\\e66a"
+    "content": "\\e96a"
   },
   {
     "iconName": "cache",
-    "content": "\\e66b"
+    "content": "\\e96b"
   },
   {
     "iconName": "calculator",
-    "content": "\\e66c"
+    "content": "\\e96c"
   },
   {
     "iconName": "calendar-day",
-    "content": "\\e66d"
+    "content": "\\e96d"
   },
   {
     "iconName": "calendar-from",
-    "content": "\\e66e"
+    "content": "\\e96e"
   },
   {
     "iconName": "calendar-key",
-    "content": "\\e66f"
+    "content": "\\e96f"
   },
   {
     "iconName": "calendar-month",
-    "content": "\\e670"
+    "content": "\\e970"
   },
   {
     "iconName": "calendar-period",
-    "content": "\\e671"
+    "content": "\\e971"
   },
   {
     "iconName": "calendar-to",
-    "content": "\\e672"
+    "content": "\\e972"
   },
   {
     "iconName": "calendar-week",
-    "content": "\\e673"
+    "content": "\\e973"
   },
   {
     "iconName": "camera",
-    "content": "\\e674"
+    "content": "\\e974"
   },
   {
     "iconName": "car-alt",
-    "content": "\\e675"
+    "content": "\\e975"
   },
   {
     "iconName": "car-arrow-e",
-    "content": "\\e676"
+    "content": "\\e976"
   },
   {
     "iconName": "car-charging",
-    "content": "\\e677"
+    "content": "\\e977"
   },
   {
     "iconName": "car-error",
-    "content": "\\e678"
+    "content": "\\e978"
   },
   {
     "iconName": "car-ok",
-    "content": "\\e679"
+    "content": "\\e979"
   },
   {
     "iconName": "car-pending",
-    "content": "\\e67a"
+    "content": "\\e97a"
   },
   {
     "iconName": "car-warning",
-    "content": "\\e67b"
+    "content": "\\e97b"
   },
   {
     "iconName": "car",
-    "content": "\\e67c"
+    "content": "\\e97c"
   },
   {
     "iconName": "card-up",
-    "content": "\\e67d"
+    "content": "\\e97d"
   },
   {
     "iconName": "card",
-    "content": "\\e67e"
+    "content": "\\e97e"
   },
   {
     "iconName": "care-n",
-    "content": "\\e67f"
+    "content": "\\e97f"
   },
   {
     "iconName": "caret-e",
-    "content": "\\e680"
+    "content": "\\e980"
   },
   {
     "iconName": "caret-ns",
-    "content": "\\e681"
+    "content": "\\e981"
   },
   {
     "iconName": "caret-s",
-    "content": "\\e682"
+    "content": "\\e982"
   },
   {
     "iconName": "caret-w",
-    "content": "\\e683"
+    "content": "\\e983"
   },
   {
     "iconName": "carrot",
-    "content": "\\e684"
+    "content": "\\e984"
   },
   {
     "iconName": "carry",
-    "content": "\\e685"
+    "content": "\\e985"
   },
   {
     "iconName": "cart-add",
-    "content": "\\e686"
+    "content": "\\e986"
   },
   {
     "iconName": "cart-delete",
-    "content": "\\e687"
+    "content": "\\e987"
   },
   {
     "iconName": "cart-down",
-    "content": "\\e688"
+    "content": "\\e988"
   },
   {
     "iconName": "cart-ok",
-    "content": "\\e689"
+    "content": "\\e989"
   },
   {
     "iconName": "cart-pending",
-    "content": "\\e68a"
+    "content": "\\e98a"
   },
   {
     "iconName": "cart-remove",
-    "content": "\\e68b"
+    "content": "\\e98b"
   },
   {
     "iconName": "cart-time",
-    "content": "\\e68c"
+    "content": "\\e98c"
   },
   {
     "iconName": "cart-up",
-    "content": "\\e68d"
+    "content": "\\e98d"
   },
   {
     "iconName": "cart",
-    "content": "\\e68e"
+    "content": "\\e98e"
   },
   {
     "iconName": "celery",
-    "content": "\\e68f"
+    "content": "\\e98f"
   },
   {
     "iconName": "center",
-    "content": "\\e690"
+    "content": "\\e990"
   },
   {
     "iconName": "certificate",
-    "content": "\\e691"
+    "content": "\\e991"
   },
   {
     "iconName": "charging-fast",
-    "content": "\\e692"
+    "content": "\\e992"
   },
   {
     "iconName": "charging-off",
-    "content": "\\e693"
+    "content": "\\e993"
   },
   {
     "iconName": "charging-on",
-    "content": "\\e694"
+    "content": "\\e994"
   },
   {
     "iconName": "charging",
-    "content": "\\e695"
+    "content": "\\e995"
   },
   {
     "iconName": "chart-area-stack",
-    "content": "\\e696"
+    "content": "\\e996"
   },
   {
     "iconName": "chart-area",
-    "content": "\\e697"
+    "content": "\\e997"
   },
   {
     "iconName": "chart-bars-axis",
-    "content": "\\e698"
+    "content": "\\e998"
   },
   {
     "iconName": "chart-bars-stack",
-    "content": "\\e699"
+    "content": "\\e999"
   },
   {
     "iconName": "chart-bars",
-    "content": "\\e69a"
+    "content": "\\e99a"
   },
   {
     "iconName": "chart-line-dots",
-    "content": "\\e69b"
+    "content": "\\e99b"
   },
   {
     "iconName": "chart-line",
-    "content": "\\e69c"
+    "content": "\\e99c"
   },
   {
     "iconName": "chart-lines",
-    "content": "\\e69d"
+    "content": "\\e99d"
   },
   {
     "iconName": "chart-pie-alt",
-    "content": "\\e69e"
+    "content": "\\e99e"
   },
   {
     "iconName": "chart-pie",
-    "content": "\\e69f"
+    "content": "\\e99f"
   },
   {
     "iconName": "chip",
-    "content": "\\e6a0"
+    "content": "\\e9a0"
   },
   {
     "iconName": "circle",
-    "content": "\\e6a1"
+    "content": "\\e9a1"
   },
   {
     "iconName": "clipboard-add",
-    "content": "\\e6a2"
+    "content": "\\e9a2"
   },
   {
     "iconName": "clipboard-paste",
-    "content": "\\e6a3"
+    "content": "\\e9a3"
   },
   {
     "iconName": "clipboard",
-    "content": "\\e6a4"
+    "content": "\\e9a4"
   },
   {
     "iconName": "clock",
-    "content": "\\e6a5"
+    "content": "\\e9a5"
   },
   {
     "iconName": "clone-e-w",
-    "content": "\\e6a6"
+    "content": "\\e9a6"
   },
   {
     "iconName": "clone-nw-se",
-    "content": "\\e6a7"
+    "content": "\\e9a7"
   },
   {
     "iconName": "clone-se-nw",
-    "content": "\\e6a8"
+    "content": "\\e9a8"
   },
   {
     "iconName": "clone-w-e",
-    "content": "\\e6a9"
+    "content": "\\e9a9"
   },
   {
     "iconName": "cloud-download",
-    "content": "\\e6aa"
+    "content": "\\e9aa"
   },
   {
     "iconName": "cloud-ok",
-    "content": "\\e6ab"
+    "content": "\\e9ab"
   },
   {
     "iconName": "cloud-upload",
-    "content": "\\e6ac"
+    "content": "\\e9ac"
   },
   {
     "iconName": "cloud",
-    "content": "\\e6ad"
+    "content": "\\e9ad"
   },
   {
     "iconName": "code-add",
-    "content": "\\e6ae"
+    "content": "\\e9ae"
   },
   {
     "iconName": "code-delete",
-    "content": "\\e6af"
+    "content": "\\e9af"
   },
   {
     "iconName": "code-down",
-    "content": "\\e6b0"
+    "content": "\\e9b0"
   },
   {
     "iconName": "code-ok",
-    "content": "\\e6b1"
+    "content": "\\e9b1"
   },
   {
     "iconName": "code-pending",
-    "content": "\\e6b2"
+    "content": "\\e9b2"
   },
   {
     "iconName": "code-remove",
-    "content": "\\e6b3"
+    "content": "\\e9b3"
   },
   {
     "iconName": "code-time",
-    "content": "\\e6b4"
+    "content": "\\e9b4"
   },
   {
     "iconName": "code-up",
-    "content": "\\e6b5"
+    "content": "\\e9b5"
   },
   {
     "iconName": "code",
-    "content": "\\e6b6"
+    "content": "\\e9b6"
   },
   {
     "iconName": "coffee-togo",
-    "content": "\\e6b7"
+    "content": "\\e9b7"
   },
   {
     "iconName": "coffee",
-    "content": "\\e6b8"
+    "content": "\\e9b8"
   },
   {
     "iconName": "coins-alt",
-    "content": "\\e6b9"
+    "content": "\\e9b9"
   },
   {
     "iconName": "coins-stash",
-    "content": "\\e6ba"
+    "content": "\\e9ba"
   },
   {
     "iconName": "coins",
-    "content": "\\e6bb"
+    "content": "\\e9bb"
   },
   {
     "iconName": "comment-pending",
-    "content": "\\e6bc"
+    "content": "\\e9bc"
   },
   {
     "iconName": "comment-text",
-    "content": "\\e6bd"
+    "content": "\\e9bd"
   },
   {
     "iconName": "comment",
-    "content": "\\e6be"
+    "content": "\\e9be"
   },
   {
     "iconName": "comments",
-    "content": "\\e6bf"
+    "content": "\\e9bf"
   },
   {
     "iconName": "compass-alt",
-    "content": "\\e6c0"
+    "content": "\\e9c0"
   },
   {
     "iconName": "compass",
-    "content": "\\e6c1"
+    "content": "\\e9c1"
   },
   {
     "iconName": "controller",
-    "content": "\\e6c2"
+    "content": "\\e9c2"
   },
   {
     "iconName": "cube",
-    "content": "\\e6c3"
+    "content": "\\e9c3"
   },
   {
     "iconName": "currency-bitcoin",
-    "content": "\\e6c4"
+    "content": "\\e9c4"
   },
   {
     "iconName": "currency-euro",
-    "content": "\\e6c5"
+    "content": "\\e9c5"
   },
   {
     "iconName": "currency-litecoin",
-    "content": "\\e6c6"
+    "content": "\\e9c6"
   },
   {
     "iconName": "currency-pound",
-    "content": "\\e6c7"
+    "content": "\\e9c7"
   },
   {
     "iconName": "currency-usd",
-    "content": "\\e6c8"
+    "content": "\\e9c8"
   },
   {
     "iconName": "currency-xrp",
-    "content": "\\e6c9"
+    "content": "\\e9c9"
   },
   {
     "iconName": "currency-yen",
-    "content": "\\e6ca"
+    "content": "\\e9ca"
   },
   {
     "iconName": "cursor",
-    "content": "\\e6cb"
+    "content": "\\e9cb"
   },
   {
     "iconName": "cycle-ccw",
-    "content": "\\e6cc"
+    "content": "\\e9cc"
   },
   {
     "iconName": "cycle-cw",
-    "content": "\\e6cd"
+    "content": "\\e9cd"
   },
   {
     "iconName": "cycle-square-cw",
-    "content": "\\e6ce"
+    "content": "\\e9ce"
   },
   {
     "iconName": "database-add",
-    "content": "\\e6cf"
+    "content": "\\e9cf"
   },
   {
     "iconName": "database-delete",
-    "content": "\\e6d0"
+    "content": "\\e9d0"
   },
   {
     "iconName": "database-down",
-    "content": "\\e6d1"
+    "content": "\\e9d1"
   },
   {
     "iconName": "database-ok",
-    "content": "\\e6d2"
+    "content": "\\e9d2"
   },
   {
     "iconName": "database-pending",
-    "content": "\\e6d3"
+    "content": "\\e9d3"
   },
   {
     "iconName": "database-remove",
-    "content": "\\e6d4"
+    "content": "\\e9d4"
   },
   {
     "iconName": "database-time",
-    "content": "\\e6d5"
+    "content": "\\e9d5"
   },
   {
     "iconName": "database-up",
-    "content": "\\e6d6"
+    "content": "\\e9d6"
   },
   {
     "iconName": "database",
-    "content": "\\e6d7"
+    "content": "\\e9d7"
   },
   {
     "iconName": "delete-circle",
-    "content": "\\e6d8"
+    "content": "\\e9d8"
   },
   {
     "iconName": "delete-square",
-    "content": "\\e6d9"
+    "content": "\\e9d9"
   },
   {
     "iconName": "delete",
-    "content": "\\e6da"
+    "content": "\\e9da"
   },
   {
     "iconName": "deny",
-    "content": "\\e6db"
+    "content": "\\e9db"
   },
   {
     "iconName": "desktop",
-    "content": "\\e6dc"
+    "content": "\\e9dc"
   },
   {
     "iconName": "device-landscape",
-    "content": "\\e6dd"
+    "content": "\\e9dd"
   },
   {
     "iconName": "device-portrait",
-    "content": "\\e6de"
+    "content": "\\e9de"
   },
   {
     "iconName": "diamond",
-    "content": "\\e6df"
+    "content": "\\e9df"
   },
   {
     "iconName": "digitalocean",
-    "content": "\\e6e0"
+    "content": "\\e9e0"
   },
   {
     "iconName": "direction-both",
-    "content": "\\e6e1"
+    "content": "\\e9e1"
   },
   {
     "iconName": "direction",
-    "content": "\\e6e2"
+    "content": "\\e9e2"
   },
   {
     "iconName": "disability",
-    "content": "\\e6e3"
+    "content": "\\e9e3"
   },
   {
     "iconName": "discount-badge",
-    "content": "\\e6e4"
+    "content": "\\e9e4"
   },
   {
     "iconName": "discount-ticket",
-    "content": "\\e6e5"
+    "content": "\\e9e5"
   },
   {
     "iconName": "divide",
-    "content": "\\e6e6"
+    "content": "\\e9e6"
   },
   {
     "iconName": "docker",
-    "content": "\\e6e7"
+    "content": "\\e9e7"
   },
   {
     "iconName": "down-square",
-    "content": "\\e6e8"
+    "content": "\\e9e8"
   },
   {
     "iconName": "drinks",
-    "content": "\\e6e9"
+    "content": "\\e9e9"
   },
   {
     "iconName": "drive-down",
-    "content": "\\e6ea"
+    "content": "\\e9ea"
   },
   {
     "iconName": "drive-up",
-    "content": "\\e6eb"
+    "content": "\\e9eb"
   },
   {
     "iconName": "drive",
-    "content": "\\e6ec"
+    "content": "\\e9ec"
   },
   {
     "iconName": "drone",
-    "content": "\\e6ed"
+    "content": "\\e9ed"
   },
   {
     "iconName": "drop",
-    "content": "\\e6ee"
+    "content": "\\e9ee"
   },
   {
     "iconName": "duplicate-add",
-    "content": "\\e6ef"
+    "content": "\\e9ef"
   },
   {
     "iconName": "duplicate-remove",
-    "content": "\\e6f0"
+    "content": "\\e9f0"
   },
   {
     "iconName": "duplicate",
-    "content": "\\e6f1"
+    "content": "\\e9f1"
   },
   {
     "iconName": "eat",
-    "content": "\\e6f2"
+    "content": "\\e9f2"
   },
   {
     "iconName": "economy",
-    "content": "\\e6f3"
+    "content": "\\e9f3"
   },
   {
     "iconName": "edit-square",
-    "content": "\\e6f4"
+    "content": "\\e9f4"
   },
   {
     "iconName": "edit",
-    "content": "\\e6f5"
+    "content": "\\e9f5"
   },
   {
     "iconName": "electric-car-alt",
-    "content": "\\e6f6"
+    "content": "\\e9f6"
   },
   {
     "iconName": "electric-car-charging",
-    "content": "\\e6f7"
+    "content": "\\e9f7"
   },
   {
     "iconName": "electric-car",
-    "content": "\\e6f8"
+    "content": "\\e9f8"
   },
   {
     "iconName": "ellipsis-square",
-    "content": "\\e6f9"
+    "content": "\\e9f9"
   },
   {
     "iconName": "ellipsis-vertical",
-    "content": "\\e6fa"
+    "content": "\\e9fa"
   },
   {
     "iconName": "ellipsis",
-    "content": "\\e6fb"
+    "content": "\\e9fb"
   },
   {
     "iconName": "emission-off",
-    "content": "\\e6fc"
+    "content": "\\e9fc"
   },
   {
     "iconName": "emissions",
-    "content": "\\e6fd"
+    "content": "\\e9fd"
   },
   {
     "iconName": "eu-flag-dark",
-    "content": "\\e6fe"
+    "content": "\\e9fe"
   },
   {
     "iconName": "eu-flag-light",
-    "content": "\\e6ff"
+    "content": "\\e9ff"
   },
   {
     "iconName": "export-alt",
-    "content": "\\e700"
+    "content": "\\ea00"
   },
   {
     "iconName": "export",
-    "content": "\\e701"
+    "content": "\\ea01"
   },
   {
     "iconName": "eye-off",
-    "content": "\\e702"
+    "content": "\\ea02"
   },
   {
     "iconName": "eye",
-    "content": "\\e703"
+    "content": "\\ea03"
   },
   {
     "iconName": "facebook",
-    "content": "\\e704"
+    "content": "\\ea04"
   },
   {
     "iconName": "fence",
-    "content": "\\e705"
+    "content": "\\ea05"
   },
   {
     "iconName": "file-add",
-    "content": "\\e706"
+    "content": "\\ea06"
   },
   {
     "iconName": "file-archive",
-    "content": "\\e707"
+    "content": "\\ea07"
   },
   {
     "iconName": "file-code",
-    "content": "\\e708"
+    "content": "\\ea08"
   },
   {
     "iconName": "file-delete",
-    "content": "\\e709"
+    "content": "\\ea09"
   },
   {
     "iconName": "file-diff",
-    "content": "\\e70a"
+    "content": "\\ea0a"
   },
   {
     "iconName": "file-down",
-    "content": "\\e70b"
+    "content": "\\ea0b"
   },
   {
     "iconName": "file-empty",
-    "content": "\\e70c"
+    "content": "\\ea0c"
   },
   {
     "iconName": "file-hash",
-    "content": "\\e70d"
+    "content": "\\ea0d"
   },
   {
     "iconName": "file-image",
-    "content": "\\e70e"
+    "content": "\\ea0e"
   },
   {
     "iconName": "file-markup",
-    "content": "\\e70f"
+    "content": "\\ea0f"
   },
   {
     "iconName": "file-ok",
-    "content": "\\e710"
+    "content": "\\ea10"
   },
   {
     "iconName": "file-pdf",
-    "content": "\\e711"
+    "content": "\\ea11"
   },
   {
     "iconName": "file-pending",
-    "content": "\\e712"
+    "content": "\\ea12"
   },
   {
     "iconName": "file-remove",
-    "content": "\\e713"
+    "content": "\\ea13"
   },
   {
     "iconName": "file-signed",
-    "content": "\\e714"
+    "content": "\\ea14"
   },
   {
     "iconName": "file-sql",
-    "content": "\\e715"
+    "content": "\\ea15"
   },
   {
     "iconName": "file-text",
-    "content": "\\e716"
+    "content": "\\ea16"
   },
   {
     "iconName": "file-time",
-    "content": "\\e717"
+    "content": "\\ea17"
   },
   {
     "iconName": "file-up",
-    "content": "\\e718"
+    "content": "\\ea18"
   },
   {
     "iconName": "file",
-    "content": "\\e719"
+    "content": "\\ea19"
   },
   {
     "iconName": "files-add",
-    "content": "\\e71a"
+    "content": "\\ea1a"
   },
   {
     "iconName": "files-delete",
-    "content": "\\e71b"
+    "content": "\\ea1b"
   },
   {
     "iconName": "files-down",
-    "content": "\\e71c"
+    "content": "\\ea1c"
   },
   {
     "iconName": "files-ok",
-    "content": "\\e71d"
+    "content": "\\ea1d"
   },
   {
     "iconName": "files-pending",
-    "content": "\\e71e"
+    "content": "\\ea1e"
   },
   {
     "iconName": "files-remove",
-    "content": "\\e71f"
+    "content": "\\ea1f"
   },
   {
     "iconName": "files-time",
-    "content": "\\e720"
+    "content": "\\ea20"
   },
   {
     "iconName": "files-up",
-    "content": "\\e721"
+    "content": "\\ea21"
   },
   {
     "iconName": "files",
-    "content": "\\e722"
+    "content": "\\ea22"
   },
   {
     "iconName": "filter",
-    "content": "\\e723"
+    "content": "\\ea23"
   },
   {
     "iconName": "flag",
-    "content": "\\e724"
+    "content": "\\ea24"
   },
   {
     "iconName": "flame",
-    "content": "\\e725"
+    "content": "\\ea25"
   },
   {
     "iconName": "floppy",
-    "content": "\\e726"
+    "content": "\\ea26"
   },
   {
     "iconName": "focus",
-    "content": "\\e727"
+    "content": "\\ea27"
   },
   {
     "iconName": "folder-add",
-    "content": "\\e728"
+    "content": "\\ea28"
   },
   {
     "iconName": "folder-share",
-    "content": "\\e729"
+    "content": "\\ea29"
   },
   {
     "iconName": "folder-symlink",
-    "content": "\\e72a"
+    "content": "\\ea2a"
   },
   {
     "iconName": "folder",
-    "content": "\\e72b"
+    "content": "\\ea2b"
   },
   {
     "iconName": "frame",
-    "content": "\\e72c"
+    "content": "\\ea2c"
   },
   {
     "iconName": "frontapp",
-    "content": "\\e72d"
+    "content": "\\ea2d"
   },
   {
     "iconName": "gauge",
-    "content": "\\e72e"
+    "content": "\\ea2e"
   },
   {
     "iconName": "gears",
-    "content": "\\e72f"
+    "content": "\\ea2f"
   },
   {
     "iconName": "genders",
-    "content": "\\e730"
+    "content": "\\ea30"
   },
   {
     "iconName": "git-branch",
-    "content": "\\e731"
+    "content": "\\ea31"
   },
   {
     "iconName": "git-compare",
-    "content": "\\e732"
+    "content": "\\ea32"
   },
   {
     "iconName": "git-fetch",
-    "content": "\\e733"
+    "content": "\\ea33"
   },
   {
     "iconName": "git-fork",
-    "content": "\\e734"
+    "content": "\\ea34"
   },
   {
     "iconName": "git-merge",
-    "content": "\\e735"
+    "content": "\\ea35"
   },
   {
     "iconName": "git-merged-alt",
-    "content": "\\e736"
+    "content": "\\ea36"
   },
   {
     "iconName": "git-merged",
-    "content": "\\e737"
+    "content": "\\ea37"
   },
   {
     "iconName": "git-pull",
-    "content": "\\e738"
+    "content": "\\ea38"
   },
   {
     "iconName": "git-push",
-    "content": "\\e739"
+    "content": "\\ea39"
   },
   {
     "iconName": "git-rebase",
-    "content": "\\e73a"
+    "content": "\\ea3a"
   },
   {
     "iconName": "git-tree",
-    "content": "\\e73b"
+    "content": "\\ea3b"
   },
   {
     "iconName": "git",
-    "content": "\\e73c"
+    "content": "\\ea3c"
   },
   {
     "iconName": "gitea",
-    "content": "\\e73d"
+    "content": "\\ea3d"
   },
   {
     "iconName": "gitfs",
-    "content": "\\e73e"
+    "content": "\\ea3e"
   },
   {
     "iconName": "github",
-    "content": "\\e73f"
+    "content": "\\ea3f"
   },
   {
     "iconName": "gitium",
-    "content": "\\e740"
+    "content": "\\ea40"
   },
   {
     "iconName": "gitolite",
-    "content": "\\e741"
+    "content": "\\ea41"
   },
   {
     "iconName": "give-euro",
-    "content": "\\e742"
+    "content": "\\ea42"
   },
   {
     "iconName": "give-usd",
-    "content": "\\e743"
+    "content": "\\ea43"
   },
   {
     "iconName": "glasses",
-    "content": "\\e744"
+    "content": "\\ea44"
   },
   {
     "iconName": "globe-alt",
-    "content": "\\e745"
+    "content": "\\ea45"
   },
   {
     "iconName": "globe",
-    "content": "\\e746"
+    "content": "\\ea46"
   },
   {
     "iconName": "golang",
-    "content": "\\e747"
+    "content": "\\ea47"
   },
   {
     "iconName": "google-cloud-platform",
-    "content": "\\e748"
+    "content": "\\ea48"
   },
   {
     "iconName": "google-plus",
-    "content": "\\e749"
+    "content": "\\ea49"
   },
   {
     "iconName": "grafana",
-    "content": "\\e74a"
+    "content": "\\ea4a"
   },
   {
     "iconName": "graphite",
-    "content": "\\e74b"
+    "content": "\\ea4b"
   },
   {
     "iconName": "green",
-    "content": "\\e74c"
+    "content": "\\ea4c"
   },
   {
     "iconName": "growth-alt",
-    "content": "\\e74d"
+    "content": "\\ea4d"
   },
   {
     "iconName": "growth",
-    "content": "\\e74e"
+    "content": "\\ea4e"
   },
   {
     "iconName": "gunicorn",
-    "content": "\\e74f"
+    "content": "\\ea4f"
   },
   {
     "iconName": "handshake",
-    "content": "\\e750"
+    "content": "\\ea50"
   },
   {
     "iconName": "headphones-alt",
-    "content": "\\e751"
+    "content": "\\ea51"
   },
   {
     "iconName": "headphones",
-    "content": "\\e752"
+    "content": "\\ea52"
   },
   {
     "iconName": "heart",
-    "content": "\\e753"
+    "content": "\\ea53"
   },
   {
     "iconName": "helm",
-    "content": "\\e754"
+    "content": "\\ea54"
   },
   {
     "iconName": "help-alt",
-    "content": "\\e755"
+    "content": "\\ea55"
   },
   {
     "iconName": "help",
-    "content": "\\e756"
+    "content": "\\ea56"
   },
   {
     "iconName": "hetzner",
-    "content": "\\e757"
+    "content": "\\ea57"
   },
   {
     "iconName": "highway-alt",
-    "content": "\\e758"
+    "content": "\\ea58"
   },
   {
     "iconName": "highway",
-    "content": "\\e759"
+    "content": "\\ea59"
   },
   {
     "iconName": "history-back",
-    "content": "\\e75a"
+    "content": "\\ea5a"
   },
   {
     "iconName": "history-forward",
-    "content": "\\e75b"
+    "content": "\\ea5b"
   },
   {
     "iconName": "home",
-    "content": "\\e75c"
+    "content": "\\ea5c"
   },
   {
     "iconName": "hourglass-alt",
-    "content": "\\e75d"
+    "content": "\\ea5d"
   },
   {
     "iconName": "hourglass",
-    "content": "\\e75e"
+    "content": "\\ea5e"
   },
   {
     "iconName": "hugo",
-    "content": "\\e75f"
+    "content": "\\ea5f"
   },
   {
     "iconName": "human",
-    "content": "\\e760"
+    "content": "\\ea60"
   },
   {
     "iconName": "hyperdb",
-    "content": "\\e761"
+    "content": "\\ea61"
   },
   {
     "iconName": "image-mapping",
-    "content": "\\e762"
+    "content": "\\ea62"
   },
   {
     "iconName": "image",
-    "content": "\\e763"
+    "content": "\\ea63"
   },
   {
     "iconName": "images",
-    "content": "\\e764"
+    "content": "\\ea64"
   },
   {
     "iconName": "import-alt",
-    "content": "\\e765"
+    "content": "\\ea65"
   },
   {
     "iconName": "import",
-    "content": "\\e766"
+    "content": "\\ea66"
   },
   {
     "iconName": "inbox-full",
-    "content": "\\e767"
+    "content": "\\ea67"
   },
   {
     "iconName": "inbox",
-    "content": "\\e768"
+    "content": "\\ea68"
   },
   {
     "iconName": "industrial",
-    "content": "\\e769"
+    "content": "\\ea69"
   },
   {
     "iconName": "info",
-    "content": "\\e76a"
+    "content": "\\ea6a"
   },
   {
     "iconName": "instagram",
-    "content": "\\e76b"
+    "content": "\\ea6b"
   },
   {
     "iconName": "internet",
-    "content": "\\e76c"
+    "content": "\\ea6c"
   },
   {
     "iconName": "issue-cycle-ccw",
-    "content": "\\e76d"
+    "content": "\\ea6d"
   },
   {
     "iconName": "issue-delete",
-    "content": "\\e76e"
+    "content": "\\ea6e"
   },
   {
     "iconName": "issue-ok",
-    "content": "\\e76f"
+    "content": "\\ea6f"
   },
   {
     "iconName": "issue-recycle-ccw",
-    "content": "\\e770"
+    "content": "\\ea70"
   },
   {
     "iconName": "issue",
-    "content": "\\e771"
+    "content": "\\ea71"
   },
   {
     "iconName": "javascript",
-    "content": "\\e772"
+    "content": "\\ea72"
   },
   {
     "iconName": "key-alt",
-    "content": "\\e773"
+    "content": "\\ea73"
   },
   {
     "iconName": "key-capslock",
-    "content": "\\e774"
+    "content": "\\ea74"
   },
   {
     "iconName": "key-command",
-    "content": "\\e775"
+    "content": "\\ea75"
   },
   {
     "iconName": "key-option",
-    "content": "\\e776"
+    "content": "\\ea76"
   },
   {
     "iconName": "key-shift",
-    "content": "\\e777"
+    "content": "\\ea77"
   },
   {
     "iconName": "key-windows",
-    "content": "\\e778"
+    "content": "\\ea78"
   },
   {
     "iconName": "key",
-    "content": "\\e779"
+    "content": "\\ea79"
   },
   {
     "iconName": "keyboard-alt",
-    "content": "\\e77a"
+    "content": "\\ea7a"
   },
   {
     "iconName": "keyboard",
-    "content": "\\e77b"
+    "content": "\\ea7b"
   },
   {
     "iconName": "keynote",
-    "content": "\\e77c"
+    "content": "\\ea7c"
   },
   {
     "iconName": "kibana",
-    "content": "\\e77d"
+    "content": "\\ea7d"
   },
   {
     "iconName": "kubernetes",
-    "content": "\\e77e"
+    "content": "\\ea7e"
   },
   {
     "iconName": "lab",
-    "content": "\\e77f"
+    "content": "\\ea7f"
   },
   {
     "iconName": "laptop",
-    "content": "\\e780"
+    "content": "\\ea80"
   },
   {
     "iconName": "large-van",
-    "content": "\\e781"
+    "content": "\\ea81"
   },
   {
     "iconName": "launch",
-    "content": "\\e782"
+    "content": "\\ea82"
   },
   {
     "iconName": "layout-alt",
-    "content": "\\e783"
+    "content": "\\ea83"
   },
   {
     "iconName": "layout-simple",
-    "content": "\\e784"
+    "content": "\\ea84"
   },
   {
     "iconName": "layout",
-    "content": "\\e785"
+    "content": "\\ea85"
   },
   {
     "iconName": "leaf",
-    "content": "\\e786"
+    "content": "\\ea86"
   },
   {
     "iconName": "leaseweb",
-    "content": "\\e787"
+    "content": "\\ea87"
   },
   {
     "iconName": "leaves",
-    "content": "\\e788"
+    "content": "\\ea88"
   },
   {
     "iconName": "letsencrypt",
-    "content": "\\e789"
+    "content": "\\ea89"
   },
   {
     "iconName": "letter",
-    "content": "\\e78a"
+    "content": "\\ea8a"
   },
   {
     "iconName": "lightbulb-off",
-    "content": "\\e78b"
+    "content": "\\ea8b"
   },
   {
     "iconName": "lightbulb-on",
-    "content": "\\e78c"
+    "content": "\\ea8c"
   },
   {
     "iconName": "lightbulb",
-    "content": "\\e78d"
+    "content": "\\ea8d"
   },
   {
     "iconName": "lighthouse",
-    "content": "\\e78e"
+    "content": "\\ea8e"
   },
   {
     "iconName": "limit-alt",
-    "content": "\\e78f"
+    "content": "\\ea8f"
   },
   {
     "iconName": "limit",
-    "content": "\\e790"
+    "content": "\\ea90"
   },
   {
     "iconName": "link-alt",
-    "content": "\\e791"
+    "content": "\\ea91"
   },
   {
     "iconName": "link",
-    "content": "\\e792"
+    "content": "\\ea92"
   },
   {
     "iconName": "linkedin",
-    "content": "\\e793"
+    "content": "\\ea93"
   },
   {
     "iconName": "linux",
-    "content": "\\e794"
+    "content": "\\ea94"
   },
   {
     "iconName": "list",
-    "content": "\\e795"
+    "content": "\\ea95"
   },
   {
     "iconName": "location-area",
-    "content": "\\e796"
+    "content": "\\ea96"
   },
   {
     "iconName": "location-spot",
-    "content": "\\e797"
+    "content": "\\ea97"
   },
   {
     "iconName": "location",
-    "content": "\\e798"
+    "content": "\\ea98"
   },
   {
     "iconName": "lock",
-    "content": "\\e799"
+    "content": "\\ea99"
   },
   {
     "iconName": "login",
-    "content": "\\e79a"
+    "content": "\\ea9a"
   },
   {
     "iconName": "logout",
-    "content": "\\e79b"
+    "content": "\\ea9b"
   },
   {
     "iconName": "loop",
-    "content": "\\e79c"
+    "content": "\\ea9c"
   },
   {
     "iconName": "magnet",
-    "content": "\\e79d"
+    "content": "\\ea9d"
   },
   {
     "iconName": "mail-read-alt",
-    "content": "\\e79e"
+    "content": "\\ea9e"
   },
   {
     "iconName": "mail-read",
-    "content": "\\e79f"
+    "content": "\\ea9f"
   },
   {
     "iconName": "mail-send",
-    "content": "\\e7a0"
+    "content": "\\eaa0"
   },
   {
     "iconName": "mail",
-    "content": "\\e7a1"
+    "content": "\\eaa1"
   },
   {
     "iconName": "mailgun",
-    "content": "\\e7a2"
+    "content": "\\eaa2"
   },
   {
     "iconName": "map-off",
-    "content": "\\e7a3"
+    "content": "\\eaa3"
   },
   {
     "iconName": "map",
-    "content": "\\e7a4"
+    "content": "\\eaa4"
   },
   {
     "iconName": "markup",
-    "content": "\\e7a5"
+    "content": "\\eaa5"
   },
   {
     "iconName": "memcache",
-    "content": "\\e7a6"
+    "content": "\\eaa6"
   },
   {
     "iconName": "memory-card",
-    "content": "\\e7a7"
+    "content": "\\eaa7"
   },
   {
     "iconName": "memory",
-    "content": "\\e7a8"
+    "content": "\\eaa8"
   },
   {
     "iconName": "menu-alt",
-    "content": "\\e7a9"
+    "content": "\\eaa9"
   },
   {
     "iconName": "menu",
-    "content": "\\e7aa"
+    "content": "\\eaaa"
   },
   {
     "iconName": "mesh-alt",
-    "content": "\\e7ab"
+    "content": "\\eaab"
   },
   {
     "iconName": "mesh-globe",
-    "content": "\\e7ac"
+    "content": "\\eaac"
   },
   {
     "iconName": "mesh",
-    "content": "\\e7ad"
+    "content": "\\eaad"
   },
   {
     "iconName": "microphone",
-    "content": "\\e7ae"
+    "content": "\\eaae"
   },
   {
     "iconName": "mobile-theme",
-    "content": "\\e7af"
+    "content": "\\eaaf"
   },
   {
     "iconName": "moon",
-    "content": "\\e7b0"
+    "content": "\\eab0"
   },
   {
     "iconName": "moped",
-    "content": "\\e7b1"
+    "content": "\\eab1"
   },
   {
     "iconName": "motobike",
-    "content": "\\e7b2"
+    "content": "\\eab2"
   },
   {
     "iconName": "mouse",
-    "content": "\\e7b3"
+    "content": "\\eab3"
   },
   {
     "iconName": "music",
-    "content": "\\e7b4"
+    "content": "\\eab4"
   },
   {
     "iconName": "mysql-operator",
-    "content": "\\e7b5"
+    "content": "\\eab5"
   },
   {
     "iconName": "newspaper",
-    "content": "\\e7b6"
+    "content": "\\eab6"
   },
   {
     "iconName": "nginx-ingress_1",
-    "content": "\\e7b7"
+    "content": "\\eab7"
   },
   {
     "iconName": "nginx-ingress",
-    "content": "\\e7b8"
+    "content": "\\eab8"
   },
   {
     "iconName": "nginx",
-    "content": "\\e7b9"
+    "content": "\\eab9"
   },
   {
     "iconName": "non-stop",
-    "content": "\\e7ba"
+    "content": "\\eaba"
   },
   {
     "iconName": "north",
-    "content": "\\e7bb"
+    "content": "\\eabb"
   },
   {
     "iconName": "notebook",
-    "content": "\\e7bc"
+    "content": "\\eabc"
   },
   {
     "iconName": "office",
-    "content": "\\e7bd"
+    "content": "\\eabd"
   },
   {
     "iconName": "ok-circle",
-    "content": "\\e7be"
+    "content": "\\eabe"
   },
   {
     "iconName": "ok-square",
-    "content": "\\e7bf"
+    "content": "\\eabf"
   },
   {
     "iconName": "ok",
-    "content": "\\e7c0"
+    "content": "\\eac0"
   },
   {
     "iconName": "opsgenie",
-    "content": "\\e7c1"
+    "content": "\\eac1"
   },
   {
     "iconName": "orchestrator",
-    "content": "\\e7c2"
+    "content": "\\eac2"
   },
   {
     "iconName": "paint-roller",
-    "content": "\\e7c3"
+    "content": "\\eac3"
   },
   {
     "iconName": "palette",
-    "content": "\\e7c4"
+    "content": "\\eac4"
   },
   {
     "iconName": "paper-plane",
-    "content": "\\e7c5"
+    "content": "\\eac5"
   },
   {
     "iconName": "papertrail",
-    "content": "\\e7c6"
+    "content": "\\eac6"
   },
   {
     "iconName": "paragraph",
-    "content": "\\e7c7"
+    "content": "\\eac7"
   },
   {
     "iconName": "parcel-down",
-    "content": "\\e7c8"
+    "content": "\\eac8"
   },
   {
     "iconName": "parcel-up",
-    "content": "\\e7c9"
+    "content": "\\eac9"
   },
   {
     "iconName": "parcel",
-    "content": "\\e7ca"
+    "content": "\\eaca"
   },
   {
     "iconName": "parking-off",
-    "content": "\\e7cb"
+    "content": "\\eacb"
   },
   {
     "iconName": "parking",
-    "content": "\\e7cc"
+    "content": "\\eacc"
   },
   {
     "iconName": "particles-alt",
-    "content": "\\e7cd"
+    "content": "\\eacd"
   },
   {
     "iconName": "particles",
-    "content": "\\e7ce"
+    "content": "\\eace"
   },
   {
     "iconName": "patch-double",
-    "content": "\\e7cf"
+    "content": "\\eacf"
   },
   {
     "iconName": "patch-simple",
-    "content": "\\e7d0"
+    "content": "\\ead0"
   },
   {
     "iconName": "pay-phone-small",
-    "content": "\\e7d1"
+    "content": "\\ead1"
   },
   {
     "iconName": "pay-phone",
-    "content": "\\e7d2"
+    "content": "\\ead2"
   },
   {
     "iconName": "paypal",
-    "content": "\\e7d3"
+    "content": "\\ead3"
   },
   {
     "iconName": "payu",
-    "content": "\\e7d4"
+    "content": "\\ead4"
   },
   {
     "iconName": "pen-line",
-    "content": "\\e7d5"
+    "content": "\\ead5"
   },
   {
     "iconName": "pen",
-    "content": "\\e7d6"
+    "content": "\\ead6"
   },
   {
     "iconName": "pencil",
-    "content": "\\e7d7"
+    "content": "\\ead7"
   },
   {
     "iconName": "percent",
-    "content": "\\e7d8"
+    "content": "\\ead8"
   },
   {
     "iconName": "percona",
-    "content": "\\e7d9"
+    "content": "\\ead9"
   },
   {
     "iconName": "phone-mobile",
-    "content": "\\e7da"
+    "content": "\\eada"
   },
   {
     "iconName": "phone-pay-alt",
-    "content": "\\e7db"
+    "content": "\\eadb"
   },
   {
     "iconName": "phone-ring",
-    "content": "\\e7dc"
+    "content": "\\eadc"
   },
   {
     "iconName": "phone-wave",
-    "content": "\\e7dd"
+    "content": "\\eadd"
   },
   {
     "iconName": "phone",
-    "content": "\\e7de"
+    "content": "\\eade"
   },
   {
     "iconName": "php",
-    "content": "\\e7df"
+    "content": "\\eadf"
   },
   {
     "iconName": "piggy",
-    "content": "\\e7e0"
+    "content": "\\eae0"
   },
   {
     "iconName": "pill",
-    "content": "\\e7e1"
+    "content": "\\eae1"
   },
   {
     "iconName": "ping-download",
-    "content": "\\e7e2"
+    "content": "\\eae2"
   },
   {
     "iconName": "plane",
-    "content": "\\e7e3"
+    "content": "\\eae3"
   },
   {
     "iconName": "plug-type-two",
-    "content": "\\e7e4"
+    "content": "\\eae4"
   },
   {
     "iconName": "plug",
-    "content": "\\e7e5"
+    "content": "\\eae5"
   },
   {
     "iconName": "plugin-tag",
-    "content": "\\e7e6"
+    "content": "\\eae6"
   },
   {
     "iconName": "plugin",
-    "content": "\\e7e7"
+    "content": "\\eae7"
   },
   {
     "iconName": "point-e",
-    "content": "\\e7e8"
+    "content": "\\eae8"
   },
   {
     "iconName": "point-w",
-    "content": "\\e7e9"
+    "content": "\\eae9"
   },
   {
     "iconName": "police",
-    "content": "\\e7ea"
+    "content": "\\eaea"
   },
   {
     "iconName": "power-plug",
-    "content": "\\e7eb"
+    "content": "\\eaeb"
   },
   {
     "iconName": "power",
-    "content": "\\e7ec"
+    "content": "\\eaec"
   },
   {
     "iconName": "present",
-    "content": "\\e7ed"
+    "content": "\\eaed"
   },
   {
     "iconName": "presslabs",
-    "content": "\\e7ee"
+    "content": "\\eaee"
   },
   {
     "iconName": "printer",
-    "content": "\\e7ef"
+    "content": "\\eaef"
   },
   {
     "iconName": "process-between",
-    "content": "\\e7f0"
+    "content": "\\eaf0"
   },
   {
     "iconName": "process-loop",
-    "content": "\\e7f1"
+    "content": "\\eaf1"
   },
   {
     "iconName": "projector",
-    "content": "\\e7f2"
+    "content": "\\eaf2"
   },
   {
     "iconName": "prometheus",
-    "content": "\\e7f3"
+    "content": "\\eaf3"
   },
   {
     "iconName": "pulse",
-    "content": "\\e7f4"
+    "content": "\\eaf4"
   },
   {
     "iconName": "puzzle-alt",
-    "content": "\\e7f5"
+    "content": "\\eaf5"
   },
   {
     "iconName": "puzzle",
-    "content": "\\e7f6"
+    "content": "\\eaf6"
   },
   {
     "iconName": "pyolite",
-    "content": "\\e7f7"
+    "content": "\\eaf7"
   },
   {
     "iconName": "python",
-    "content": "\\e7f8"
+    "content": "\\eaf8"
   },
   {
     "iconName": "react",
-    "content": "\\e7f9"
+    "content": "\\eaf9"
   },
   {
     "iconName": "read-alt",
-    "content": "\\e7fa"
+    "content": "\\eafa"
   },
   {
     "iconName": "read",
-    "content": "\\e7fb"
+    "content": "\\eafb"
   },
   {
     "iconName": "receipt-end",
-    "content": "\\e7fc"
+    "content": "\\eafc"
   },
   {
     "iconName": "receipt",
-    "content": "\\e7fd"
+    "content": "\\eafd"
   },
   {
     "iconName": "recycle-ccw",
-    "content": "\\e7fe"
+    "content": "\\eafe"
   },
   {
     "iconName": "recycle-cw",
-    "content": "\\e7ff"
+    "content": "\\eaff"
   },
   {
     "iconName": "redis",
-    "content": "\\e800"
+    "content": "\\eb00"
   },
   {
     "iconName": "redux",
-    "content": "\\e801"
+    "content": "\\eb01"
   },
   {
     "iconName": "remove-circle",
-    "content": "\\e802"
+    "content": "\\eb02"
   },
   {
     "iconName": "remove-square",
-    "content": "\\e803"
+    "content": "\\eb03"
   },
   {
     "iconName": "remove",
-    "content": "\\e804"
+    "content": "\\eb04"
   },
   {
     "iconName": "repo-add",
-    "content": "\\e805"
+    "content": "\\eb05"
   },
   {
     "iconName": "repo-down",
-    "content": "\\e806"
+    "content": "\\eb06"
   },
   {
     "iconName": "repo",
-    "content": "\\e807"
+    "content": "\\eb07"
   },
   {
     "iconName": "role-admin",
-    "content": "\\e808"
+    "content": "\\eb08"
   },
   {
     "iconName": "role-super-admin",
-    "content": "\\e809"
+    "content": "\\eb09"
   },
   {
     "iconName": "role-user",
-    "content": "\\e80a"
+    "content": "\\eb0a"
   },
   {
     "iconName": "room",
-    "content": "\\e80b"
+    "content": "\\eb0b"
   },
   {
     "iconName": "route-fiftythree",
-    "content": "\\e80c"
+    "content": "\\eb0c"
   },
   {
     "iconName": "router",
-    "content": "\\e80d"
+    "content": "\\eb0d"
   },
   {
     "iconName": "routing-away",
-    "content": "\\e80e"
+    "content": "\\eb0e"
   },
   {
     "iconName": "routing-in",
-    "content": "\\e80f"
+    "content": "\\eb0f"
   },
   {
     "iconName": "routing",
-    "content": "\\e810"
+    "content": "\\eb10"
   },
   {
     "iconName": "ruler",
-    "content": "\\e811"
+    "content": "\\eb11"
   },
   {
     "iconName": "safe-alt",
-    "content": "\\e812"
+    "content": "\\eb12"
   },
   {
     "iconName": "safe-simple",
-    "content": "\\e813"
+    "content": "\\eb13"
   },
   {
     "iconName": "safe",
-    "content": "\\e814"
+    "content": "\\eb14"
   },
   {
     "iconName": "search",
-    "content": "\\e815"
+    "content": "\\eb15"
   },
   {
     "iconName": "section-alt",
-    "content": "\\e816"
+    "content": "\\eb16"
   },
   {
     "iconName": "section",
-    "content": "\\e817"
+    "content": "\\eb17"
   },
   {
     "iconName": "security-add",
-    "content": "\\e818"
+    "content": "\\eb18"
   },
   {
     "iconName": "security-delete",
-    "content": "\\e819"
+    "content": "\\eb19"
   },
   {
     "iconName": "security-ok",
-    "content": "\\e81a"
+    "content": "\\eb1a"
   },
   {
     "iconName": "security-remove",
-    "content": "\\e81b"
+    "content": "\\eb1b"
   },
   {
     "iconName": "security",
-    "content": "\\e81c"
+    "content": "\\eb1c"
   },
   {
     "iconName": "semaphore",
-    "content": "\\e81d"
+    "content": "\\eb1d"
   },
   {
     "iconName": "sendgrid",
-    "content": "\\e81e"
+    "content": "\\eb1e"
   },
   {
     "iconName": "sentry",
-    "content": "\\e81f"
+    "content": "\\eb1f"
   },
   {
     "iconName": "server-link",
-    "content": "\\e820"
+    "content": "\\eb20"
   },
   {
     "iconName": "server",
-    "content": "\\e821"
+    "content": "\\eb21"
   },
   {
     "iconName": "settings-add",
-    "content": "\\e822"
+    "content": "\\eb22"
   },
   {
     "iconName": "settings-delete",
-    "content": "\\e823"
+    "content": "\\eb23"
   },
   {
     "iconName": "settings-down",
-    "content": "\\e824"
+    "content": "\\eb24"
   },
   {
     "iconName": "settings-ok",
-    "content": "\\e825"
+    "content": "\\eb25"
   },
   {
     "iconName": "settings-pending",
-    "content": "\\e826"
+    "content": "\\eb26"
   },
   {
     "iconName": "settings-remove",
-    "content": "\\e827"
+    "content": "\\eb27"
   },
   {
     "iconName": "settings-time",
-    "content": "\\e828"
+    "content": "\\eb28"
   },
   {
     "iconName": "settings-up",
-    "content": "\\e829"
+    "content": "\\eb29"
   },
   {
     "iconName": "settings",
-    "content": "\\e82a"
+    "content": "\\eb2a"
   },
   {
     "iconName": "sex-female",
-    "content": "\\e82b"
+    "content": "\\eb2b"
   },
   {
     "iconName": "sex-male",
-    "content": "\\e82c"
+    "content": "\\eb2c"
   },
   {
     "iconName": "share-alt",
-    "content": "\\e82d"
+    "content": "\\eb2d"
   },
   {
     "iconName": "share",
-    "content": "\\e82e"
+    "content": "\\eb2e"
   },
   {
     "iconName": "shop",
-    "content": "\\e82f"
+    "content": "\\eb2f"
   },
   {
     "iconName": "sign-document",
-    "content": "\\e830"
+    "content": "\\eb30"
   },
   {
     "iconName": "sign",
-    "content": "\\e831"
+    "content": "\\eb31"
   },
   {
     "iconName": "signal",
-    "content": "\\e832"
+    "content": "\\eb32"
   },
   {
     "iconName": "silver",
-    "content": "\\e833"
+    "content": "\\eb33"
   },
   {
     "iconName": "site-protection",
-    "content": "\\e834"
+    "content": "\\eb34"
   },
   {
     "iconName": "slack",
-    "content": "\\e835"
+    "content": "\\eb35"
   },
   {
     "iconName": "snowflake",
-    "content": "\\e836"
+    "content": "\\eb36"
   },
   {
     "iconName": "softlayer",
-    "content": "\\e837"
+    "content": "\\eb37"
   },
   {
     "iconName": "sort-asc-horizontal-alt",
-    "content": "\\e838"
+    "content": "\\eb38"
   },
   {
     "iconName": "sort-asc-horizontal",
-    "content": "\\e839"
+    "content": "\\eb39"
   },
   {
     "iconName": "sort-asc-vertical-alt",
-    "content": "\\e83a"
+    "content": "\\eb3a"
   },
   {
     "iconName": "sort-asc-vertical",
-    "content": "\\e83b"
+    "content": "\\eb3b"
   },
   {
     "iconName": "sort-desc-horizontal-alt",
-    "content": "\\e83c"
+    "content": "\\eb3c"
   },
   {
     "iconName": "sort-desc-horizontal",
-    "content": "\\e83d"
+    "content": "\\eb3d"
   },
   {
     "iconName": "sort-desc-vertical-alt",
-    "content": "\\e83e"
+    "content": "\\eb3e"
   },
   {
     "iconName": "sort-desc-vertical",
-    "content": "\\e83f"
+    "content": "\\eb3f"
   },
   {
     "iconName": "speaker",
-    "content": "\\e840"
+    "content": "\\eb40"
   },
   {
     "iconName": "square",
-    "content": "\\e841"
+    "content": "\\eb41"
   },
   {
     "iconName": "ssd",
-    "content": "\\e842"
+    "content": "\\eb42"
   },
   {
     "iconName": "stack-1",
-    "content": "\\e843"
+    "content": "\\eb43"
   },
   {
     "iconName": "stack-add",
-    "content": "\\e844"
+    "content": "\\eb44"
   },
   {
     "iconName": "stack-delete",
-    "content": "\\e845"
+    "content": "\\eb45"
   },
   {
     "iconName": "stack-down",
-    "content": "\\e846"
+    "content": "\\eb46"
   },
   {
     "iconName": "stack-ok",
-    "content": "\\e847"
+    "content": "\\eb47"
   },
   {
     "iconName": "stack-pending",
-    "content": "\\e848"
+    "content": "\\eb48"
   },
   {
     "iconName": "stack-remove",
-    "content": "\\e849"
+    "content": "\\eb49"
   },
   {
     "iconName": "stack-time",
-    "content": "\\e84a"
+    "content": "\\eb4a"
   },
   {
     "iconName": "stack-up",
-    "content": "\\e84b"
+    "content": "\\eb4b"
   },
   {
     "iconName": "stack",
-    "content": "\\e84c"
+    "content": "\\eb4c"
   },
   {
     "iconName": "star-half",
-    "content": "\\e84d"
+    "content": "\\eb4d"
   },
   {
     "iconName": "star-off",
-    "content": "\\e84e"
+    "content": "\\eb4e"
   },
   {
     "iconName": "star",
-    "content": "\\e84f"
+    "content": "\\eb4f"
   },
   {
     "iconName": "statuscake",
-    "content": "\\e850"
+    "content": "\\eb50"
   },
   {
     "iconName": "statuspage",
-    "content": "\\e851"
+    "content": "\\eb51"
   },
   {
     "iconName": "stopwatch",
-    "content": "\\e852"
+    "content": "\\eb52"
   },
   {
     "iconName": "storage",
-    "content": "\\e853"
+    "content": "\\eb53"
   },
   {
     "iconName": "street",
-    "content": "\\e854"
+    "content": "\\eb54"
   },
   {
     "iconName": "suitcase",
-    "content": "\\e855"
+    "content": "\\eb55"
   },
   {
     "iconName": "sun",
-    "content": "\\e856"
+    "content": "\\eb56"
   },
   {
     "iconName": "switch",
-    "content": "\\e857"
+    "content": "\\eb57"
   },
   {
     "iconName": "sync-square",
-    "content": "\\e858"
+    "content": "\\eb58"
   },
   {
     "iconName": "sync",
-    "content": "\\e859"
+    "content": "\\eb59"
   },
   {
     "iconName": "tag",
-    "content": "\\e85a"
+    "content": "\\eb5a"
   },
   {
     "iconName": "target-alt",
-    "content": "\\e85b"
+    "content": "\\eb5b"
   },
   {
     "iconName": "target",
-    "content": "\\e85c"
+    "content": "\\eb5c"
   },
   {
     "iconName": "temperature-hi",
-    "content": "\\e85d"
+    "content": "\\eb5d"
   },
   {
     "iconName": "temperature-low",
-    "content": "\\e85e"
+    "content": "\\eb5e"
   },
   {
     "iconName": "temperature",
-    "content": "\\e85f"
+    "content": "\\eb5f"
   },
   {
     "iconName": "terminal",
-    "content": "\\e860"
+    "content": "\\eb60"
   },
   {
     "iconName": "theme-per-user",
-    "content": "\\e861"
+    "content": "\\eb61"
   },
   {
     "iconName": "thumb-down",
-    "content": "\\e862"
+    "content": "\\eb62"
   },
   {
     "iconName": "thumb-up",
-    "content": "\\e863"
+    "content": "\\eb63"
   },
   {
     "iconName": "thunder-alt",
-    "content": "\\e864"
+    "content": "\\eb64"
   },
   {
     "iconName": "tir-alt",
-    "content": "\\e865"
+    "content": "\\eb65"
   },
   {
     "iconName": "toll-stop",
-    "content": "\\e866"
+    "content": "\\eb66"
   },
   {
     "iconName": "tolls",
-    "content": "\\e867"
+    "content": "\\eb67"
   },
   {
     "iconName": "tooth",
-    "content": "\\e868"
+    "content": "\\eb68"
   },
   {
     "iconName": "toplytics",
-    "content": "\\e869"
+    "content": "\\eb69"
   },
   {
     "iconName": "tor",
-    "content": "\\e86a"
+    "content": "\\eb6a"
   },
   {
     "iconName": "touch",
-    "content": "\\e86b"
+    "content": "\\eb6b"
   },
   {
     "iconName": "trailer",
-    "content": "\\e86c"
+    "content": "\\eb6c"
   },
   {
     "iconName": "transport-away",
-    "content": "\\e86d"
+    "content": "\\eb6d"
   },
   {
     "iconName": "transport",
-    "content": "\\e86e"
+    "content": "\\eb6e"
   },
   {
     "iconName": "tree",
-    "content": "\\e86f"
+    "content": "\\eb6f"
   },
   {
     "iconName": "triangle",
-    "content": "\\e870"
+    "content": "\\eb70"
   },
   {
     "iconName": "trophy",
-    "content": "\\e871"
+    "content": "\\eb71"
   },
   {
     "iconName": "truck-cab",
-    "content": "\\e872"
+    "content": "\\eb72"
   },
   {
     "iconName": "truck-small",
-    "content": "\\e873"
+    "content": "\\eb73"
   },
   {
     "iconName": "tshirt",
-    "content": "\\e874"
+    "content": "\\eb74"
   },
   {
     "iconName": "tune",
-    "content": "\\e875"
+    "content": "\\eb75"
   },
   {
     "iconName": "twitter",
-    "content": "\\e876"
+    "content": "\\eb76"
   },
   {
     "iconName": "umbrella",
-    "content": "\\e877"
+    "content": "\\eb77"
   },
   {
     "iconName": "unlock",
-    "content": "\\e878"
+    "content": "\\eb78"
   },
   {
     "iconName": "up-square",
-    "content": "\\e879"
+    "content": "\\eb79"
   },
   {
     "iconName": "utf",
-    "content": "\\e87a"
+    "content": "\\eb7a"
   },
   {
     "iconName": "van",
-    "content": "\\e87b"
+    "content": "\\eb7b"
   },
   {
     "iconName": "vector",
-    "content": "\\e87c"
+    "content": "\\eb7c"
   },
   {
     "iconName": "vehicle",
-    "content": "\\e87d"
+    "content": "\\eb7d"
   },
   {
     "iconName": "view-cards",
-    "content": "\\e87e"
+    "content": "\\eb7e"
   },
   {
     "iconName": "view-full",
-    "content": "\\e87f"
+    "content": "\\eb7f"
   },
   {
     "iconName": "view-list",
-    "content": "\\e880"
+    "content": "\\eb80"
   },
   {
     "iconName": "view-single",
-    "content": "\\e881"
+    "content": "\\eb81"
   },
   {
     "iconName": "view-stack",
-    "content": "\\e882"
+    "content": "\\eb82"
   },
   {
     "iconName": "view-table",
-    "content": "\\e883"
+    "content": "\\eb83"
   },
   {
     "iconName": "view-thumbs",
-    "content": "\\e884"
+    "content": "\\eb84"
   },
   {
     "iconName": "volume-high",
-    "content": "\\e885"
+    "content": "\\eb85"
   },
   {
     "iconName": "volume-low",
-    "content": "\\e886"
+    "content": "\\eb86"
   },
   {
     "iconName": "volume-mute",
-    "content": "\\e887"
+    "content": "\\eb87"
   },
   {
     "iconName": "volume",
-    "content": "\\e888"
+    "content": "\\eb88"
   },
   {
     "iconName": "wallet",
-    "content": "\\e889"
+    "content": "\\eb89"
   },
   {
     "iconName": "warm-food",
-    "content": "\\e88a"
+    "content": "\\eb8a"
   },
   {
     "iconName": "warning",
-    "content": "\\e88b"
+    "content": "\\eb8b"
   },
   {
     "iconName": "watch",
-    "content": "\\e88c"
+    "content": "\\eb8c"
   },
   {
     "iconName": "wave",
-    "content": "\\e88d"
+    "content": "\\eb8d"
   },
   {
     "iconName": "way",
-    "content": "\\e88e"
+    "content": "\\eb8e"
   },
   {
     "iconName": "window",
-    "content": "\\e88f"
+    "content": "\\eb8f"
   },
   {
     "iconName": "windows",
-    "content": "\\e890"
+    "content": "\\eb90"
   },
   {
     "iconName": "wireless",
-    "content": "\\e891"
+    "content": "\\eb91"
   },
   {
     "iconName": "wordpress-operator",
-    "content": "\\e892"
+    "content": "\\eb92"
   },
   {
     "iconName": "wordpress",
-    "content": "\\e893"
+    "content": "\\eb93"
   },
   {
     "iconName": "wrench",
-    "content": "\\e894"
+    "content": "\\eb94"
   },
   {
     "iconName": "xing",
-    "content": "\\e895"
+    "content": "\\eb95"
   },
   {
     "iconName": "zinc",
-    "content": "\\e896"
+    "content": "\\eb96"
   },
   {
     "iconName": "zipa",
-    "content": "\\e897"
+    "content": "\\eb97"
   },
   {
     "iconName": "zoom-in",
-    "content": "\\e898"
+    "content": "\\eb98"
   },
   {
     "iconName": "zoom-out",
-    "content": "\\e899"
+    "content": "\\eb99"
   },
   {
     "iconName": "zsync",
-    "content": "\\e89a"
+    "content": "\\eb9a"
   },
   {
     "iconName": "zthree",
-    "content": "\\e89b"
+    "content": "\\eb9b"
   }
 ]
