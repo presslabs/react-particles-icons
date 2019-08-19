@@ -1,48 +1,15 @@
-# React Particles icons
+<img height="204" src="https://cloud.githubusercontent.com/assets/464822/20228152/d3f36dc2-a804-11e6-80ff-51ada2d13ea7.png">
+
+# [Blueprint](http://blueprintjs.com/) Icon Components and files
+
+Blueprint is a React UI toolkit for the web.
+
+This package contains a collection of React components and other files for displaying icons.
+
+## Installation
 
 ```
-yarn add react-particles-icons
+npm install --save @blueprintjs/icons
 ```
 
-## Usage
-
-Import individual icon
-
-```
-import { AddIcon } from 'react-particles-icons';
-
-class Button extends React.Component {
-    render() {
-        return <div><AddIcon size={ 30 } /></div>
-    }
-}
-```
-
-or as single component with name attribute
-
-```
-import { Particle } from 'react-particles-icons';
-
-class Button extends React.Component {
-    render() {
-        return <div><Particle name="add" size={ 30 } /></div>
-    }
-}
-```
-
-## Development
-
-Build icons:
-```
-yarn build
-```
-
-Build demo:
-```
-yarn demo
-```
-
-View/modify demo:
-```
-yarn dev
-```
+### [Full Documentation](http://blueprintjs.com/docs) | [Source Code](https://github.com/palantir/blueprint)

@@ -1,83 +1,69 @@
 {
-  "name": "react-particles-icons",
-  "version": "3.2.0",
-  "description": "A set of SVG Icons from Presslabs to use with React components",
+  "name": "@presslabs/icons",
+  "version": "2.0.0",
+  "description": "Components, fonts, icons, and css files for creating and displaying icons.",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "esnext": "lib/esnext/index.js",
+  "typings": "lib/esm/index.d.ts",
+  "style": "lib/css/blueprint-icons.css",
+  "unpkg": "dist/icons.bundle.js",
+  "sideEffects": [
+    "*.css"
+  ],
   "scripts": {
-    "prepublish": "del-cli dist && babel-node ./bin/create.js && BABEL_ENV=publish babel particles/*.js --out-dir lib",
-    "dev": "webpack-dev-server --open --config webpack.dev.js",
-    "dump": "babel-node ./bin/create.js",
-    "build": "babel-node ./bin/create.js && babel particles/*.js --out-dir lib",
-    "demo": "webpack --config webpack.prod.js",
-    "lint": "eslint ."
+    "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
+    "compile": "npm-run-all -s \"compile:pre\" -p \"compile:*\"",
+    "compile:pre": "generate-icons-source",
+    "compile:esm": "tsc -p ./src",
+    "compile:cjs": "tsc -p ./src -m commonjs --outDir lib/cjs",
+    "compile:esnext": "tsc -p ./src -t esnext --outDir lib/esnext",
+    "compile:css": "sass-compile ./src",
+    "dev": "run-p \"compile:esm -- --watch\" \"compile:css -- --watch\"",
+    "dist": "run-s \"dist:*\"",
+    "dist:bundle": "cross-env NODE_ENV=production webpack",
+    "dist:css": "css-dist lib/css/*.css",
+    "dist:variables": "generate-css-variables generated/_icon-variables.scss",
+    "dist:verify": "assert-package-layout",
+    "lint": "run-p lint:scss lint:ts",
+    "lint:scss": "sass-lint",
+    "lint:ts": "ts-lint",
+    "lint-fix": "ts-lint --fix",
+    "test": "run-s test:typeCheck test:iso",
+    "test:typeCheck": "tsc -p ./test",
+    "test:iso": "mocha test/isotest.js",
+    "verify": "npm-run-all compile -p dist test lint"
+  },
+  "dependencies": {
+    "classnames": "^2.2",
+    "tslib": "~1.9.0"
+  },
+  "devDependencies": {
+    "@blueprintjs/node-build-scripts": "^0.11.0",
+    "@blueprintjs/test-commons": "^0.10.0",
+    "enzyme": "^3.10.0",
+    "mocha": "^6.2.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "typescript": "~3.5.3",
+    "webpack-cli": "^3.3.6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PressLabs/react-particles-icons.git"
+    "url": "git@github.com:presslabs/react-particles-icons.git",
   },
   "keywords": [
+    "palantir",
+    "blueprint",
+    "theme",
     "react",
-    "icon",
-    "icons",
-    "svg"
+    "icon"
   ],
-  "main": "lib/index.js",
-  "files": [
-    "lib",
-    "particles",
-    "LICENSE-MIT"
+  "author": "Palantir Technologies",
+  "contributors": [
+    "Mihai Grescenko <mihai@presslabs.com> (https://presslabs.com)"
   ],
-  "author": "Presslabs",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PressLabs/react-particles-icons/issues"
-  },
-  "homepage": "https://github.com/PressLabs/react-particles-icons#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.39",
-    "@babel/core": "^7.0.0-beta.39",
-    "@babel/node": "^7.0.0-beta.39",
-    "@babel/plugin-proposal-export-default-from": "^7.0.0-beta.40",
-    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.39",
-    "@babel/preset-env": "^7.0.0-beta.39",
-    "@babel/preset-react": "^7.0.0-beta.40",
-    "@babel/register": "^7.0.0-beta.39",
-    "autoprefixer-loader": "^3.2.0",
-    "babel-loader": "8.0.0-beta.0",
-    "cheerio": "^1.0.0-rc.2",
-    "classnames": "^2.2.5",
-    "clean-webpack-plugin": "^0.1.18",
-    "css-loader": "^0.28.9",
-    "del-cli": "^1.1.0",
-    "dotenv": "^5.0.0",
-    "eslint": "^4.16.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-vue": "^4.2.2",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.6",
-    "glob": "^7.1.2",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^2.30.1",
-    "node-sass": "^4.7.2",
-    "paper-jsdom": "^0.11.5",
-    "path": "^0.12.7",
-    "prettier": "^1.10.2",
-    "prop-types": "^15.6.1",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "vue": "^2.5.13",
-    "vue-loader": "^14.1.1",
-    "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1",
-    "webpack-merge": "^4.1.1",
-    "webpack-px-to-rem": "^0.1.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4",
-    "presslabs-particles-icons": "^3.1.1"
-  }
+  "license": "Apache-2.0"
 }

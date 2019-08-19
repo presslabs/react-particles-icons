@@ -1,4 +1,5 @@
-/bin
-/published
-/icons
-.babelrc
+coverage/
+test/
+webpack.config.js
+karma.conf.js
+.npmrc

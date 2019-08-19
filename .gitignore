@@ -1,11 +1,25 @@
-/node_modules
-/demo
-/publish
-/lib
-npm-debug.log
-yarn-error.log
-secure.yml
-/docs/index.html
-.env
-/particles
+# macOS
 .DS_Store
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Node
+node_modules
+npm-debug.log*
+lerna-debug.log
+package-lock.json
+yarn-error.log
+
+# Sass
+.sass-cache/
+
+# Blueprint
+build
+dist
+lib
+generated
+coverage

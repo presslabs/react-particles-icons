@@ -1,5 +1,6 @@
 /*
  * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,27 +14,9 @@
  * limitations under the License.
  */
 
-const { baseConfig, COMMON_EXTERNALS } = require("@blueprintjs/webpack-build-scripts");
-const path = require("path");
+import * as IconContents from "./generated/iconContents";
+import * as IconNames from "./generated/iconNames";
 
-module.exports = Object.assign({}, baseConfig, {
-    entry: {
-        icons: [
-            "./src/index.ts"
-        ],
-    },
-
-    externals: COMMON_EXTERNALS,
-
-    output: {
-        filename: "[name].bundle.js",
-        library: ["Blueprint", "Icons"],
-        libraryTarget: "umd",
-        path: path.resolve(__dirname, "./dist")
-    },
-
-    performance: {
-        maxAssetSize: 500000,
-        maxEntrypointSize: 500000,
-    },
-});
+export { IconContents, IconNames };
+export { IconSvgPaths32 } from "./generated/iconSvgPaths";
+export { IconName } from "./iconName";
