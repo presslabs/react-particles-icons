@@ -1,11 +1,12 @@
 {
   "name": "@presslabs/icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Components, fonts, icons, and css files for creating and displaying icons.",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "esnext": "lib/esnext/index.js",
   "typings": "lib/esm/index.d.ts",
+  "types": "lib/cjs/index.d.ts",
   "style": "lib/css/blueprint-icons.css",
   "unpkg": "dist/icons.bundle.js",
   "sideEffects": [
