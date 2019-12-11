@@ -13,17 +13,130 @@
  * limitations under the License.
  */
 
-const { baseConfig, COMMON_EXTERNALS } = require("@blueprintjs/webpack-build-scripts");
 const path = require("path");
+const webpack = require("webpack");
 
-module.exports = Object.assign({}, baseConfig, {
+// webpack plugins
+const { CheckerPlugin } = require("awesome-typescript-loader");
+// const CircularDependencyPlugin = require("circular-dependency-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const WebpackNotifierPlugin = require("webpack-notifier");
+
+// globals
+const IS_PRODUCTION = process.env.NODE_ENV === "production";
+const DEV_PORT = process.env.PORT || 3000;
+const PACKAGE_NAME = '@presslabs/icons';
+
+/**
+ * Configure plugins loaded based on environment.
+ */
+const plugins = [
+    // Used for async error reporting
+    // Can remove after https://github.com/webpack/webpack/issues/3460 resolved
+    new CheckerPlugin(),
+
+    // CSS extraction is only enabled in production (see scssLoaders below).
+    new MiniCssExtractPlugin({ filename: "[name].css" }),
+
+    // TODO: enable this
+    // Zero tolereance for circular depenendencies
+    // new CircularDependencyPlugin({
+    //     exclude: /.js|node_modules/,
+    //     failOnError: true,
+    // }),
+];
+
+if (!IS_PRODUCTION) {
+    plugins.push(
+        // Trigger an OS notification when the build succeeds in dev mode.
+        new WebpackNotifierPlugin({ title: PACKAGE_NAME })
+    );
+}
+
+// Module loaders for .scss files, used in reverse order:
+// compile Sass, apply PostCSS, interpret CSS as modules.
+const scssLoaders = [
+    // Only extract CSS to separate file in production mode.
+    IS_PRODUCTION ? MiniCssExtractPlugin.loader : require.resolve("style-loader"),
+    {
+        loader: require.resolve("css-loader"),
+        options: {
+            // necessary to minify @import-ed files using cssnano
+            importLoaders: 1,
+        },
+    },
+    {
+        loader: require.resolve("postcss-loader"),
+        options: {
+            plugins: [
+                require("autoprefixer"),
+                require("cssnano")({ preset: "default" }),
+            ],
+        },
+    },
+    require.resolve("sass-loader"),
+];
+
+module.exports = {
     entry: {
         icons: [
             "./src/index.ts"
         ],
     },
 
-    externals: COMMON_EXTERNALS,
+    devtool: IS_PRODUCTION ? false : "inline-source-map",
+
+    devServer: {
+        contentBase: "./src",
+        disableHostCheck: true,
+        historyApiFallback: true,
+        https: false,
+        // TODO: enable HMR
+        // hot: true,
+        index: path.resolve(__dirname, "src/index.html"),
+        inline: true,
+        stats: "errors-only",
+        open: false,
+        overlay: {
+            warnings: true,
+            errors: true,
+        },
+        port: DEV_PORT,
+    },
+
+    mode: IS_PRODUCTION ? "production" : "development",
+
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                loader: require.resolve("awesome-typescript-loader"),
+                options: {
+                    configFileName: "./src/tsconfig.json",
+                },
+            },
+            {
+                test: /\.scss$/,
+                use: scssLoaders,
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2|svg|png|gif|jpe?g)$/,
+                loader: require.resolve("file-loader"),
+                options: {
+                    name: "[name].[ext]?[hash]",
+                    outputPath: "assets/",
+                },
+            },
+        ],
+    },
+
+    plugins,
+
+    resolve: {
+        extensions: [ ".js", ".jsx", ".ts", ".tsx", ".scss" ],
+    },
+
+    // externals: COMMON_EXTERNALS,
 
     output: {
         filename: "[name].bundle.js",
@@ -36,4 +149,4 @@ module.exports = Object.assign({}, baseConfig, {
         maxAssetSize: 500000,
         maxEntrypointSize: 500000,
     },
-});
+};
