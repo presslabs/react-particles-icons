@@ -19,7 +19,6 @@
     "compile:esm": "tsc -p ./src",
     "compile:cjs": "tsc -p ./src -m commonjs --outDir lib/cjs",
     "compile:esnext": "tsc -p ./src -t esnext --outDir lib/esnext",
-    "compile:css": "sass-compile ./src",
     "dev": "run-p \"compile:esm -- --watch\" \"compile:css -- --watch\"",
     "dist": "run-s \"dist:*\"",
     "dist:bundle": "cross-env NODE_ENV=production webpack",
@@ -37,6 +36,8 @@
   },
   "dependencies": {
     "classnames": "^2.2",
+    "cross-env": "^6.0.3",
+    "node-sass": "^4.13.0",
     "tslib": "~1.9.0"
   },
   "devDependencies": {
