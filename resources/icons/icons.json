@@ -188,7 +188,7 @@
     "content": "\\e92e"
   },
   {
-    "iconName": "mysql-operator",
+    "iconName": "presslabs-mysql-operator",
     "content": "\\e92f"
   },
   {
@@ -308,7 +308,7 @@
     "content": "\\e94c"
   },
   {
-    "iconName": "stack",
+    "iconName": "presslabs-stack",
     "content": "\\e94d"
   },
   {
@@ -2480,7 +2480,7 @@
     "content": "\\eb67"
   },
   {
-    "iconName": "stack1",
+    "iconName": "stack",
     "content": "\\eb68"
   },
   {
