@@ -376,24 +376,12 @@
     "content": "\\e95d"
   },
   {
-    "iconName": "status-error",
-    "content": "\\eba9"
-  },
-  {
-    "iconName": "status-ok",
-    "content": "\\ebaa"
-  },
-  {
-    "iconName": "status-pending",
-    "content": "\\ebab"
-  },
-  {
-    "iconName": "status-warning",
-    "content": "\\ebac"
-  },
-  {
     "iconName": "account-circle",
     "content": "\\e95e"
+  },
+  {
+    "iconName": "account-female",
+    "content": "\\e967"
   },
   {
     "iconName": "account-female-add",
@@ -428,8 +416,8 @@
     "content": "\\e966"
   },
   {
-    "iconName": "account-female",
-    "content": "\\e967"
+    "iconName": "account-male",
+    "content": "\\e970"
   },
   {
     "iconName": "account-male-add",
@@ -464,12 +452,12 @@
     "content": "\\e96f"
   },
   {
-    "iconName": "account-male",
-    "content": "\\e970"
-  },
-  {
     "iconName": "account-square",
     "content": "\\e971"
+  },
+  {
+    "iconName": "accounts",
+    "content": "\\e97a"
   },
   {
     "iconName": "accounts-add",
@@ -504,8 +492,8 @@
     "content": "\\e979"
   },
   {
-    "iconName": "accounts",
-    "content": "\\e97a"
+    "iconName": "add",
+    "content": "\\e97d"
   },
   {
     "iconName": "add-circle",
@@ -514,10 +502,6 @@
   {
     "iconName": "add-square",
     "content": "\\e97c"
-  },
-  {
-    "iconName": "add",
-    "content": "\\e97d"
   },
   {
     "iconName": "agenda",
@@ -544,20 +528,20 @@
     "content": "\\e983"
   },
   {
-    "iconName": "area-rectangle",
-    "content": "\\e984"
-  },
-  {
     "iconName": "area",
     "content": "\\e985"
   },
   {
-    "iconName": "array-alt",
-    "content": "\\e986"
+    "iconName": "area-rectangle",
+    "content": "\\e984"
   },
   {
     "iconName": "array",
     "content": "\\e987"
+  },
+  {
+    "iconName": "array-alt",
+    "content": "\\e986"
   },
   {
     "iconName": "arrow-alt-se",
@@ -568,6 +552,10 @@
     "content": "\\e989"
   },
   {
+    "iconName": "arrow-e",
+    "content": "\\e98c"
+  },
+  {
     "iconName": "arrow-e-nw",
     "content": "\\e98a"
   },
@@ -576,8 +564,8 @@
     "content": "\\e98b"
   },
   {
-    "iconName": "arrow-e",
-    "content": "\\e98c"
+    "iconName": "arrow-n",
+    "content": "\\e98f"
   },
   {
     "iconName": "arrow-n-se",
@@ -588,16 +576,16 @@
     "content": "\\e98e"
   },
   {
-    "iconName": "arrow-n",
-    "content": "\\e98f"
-  },
-  {
     "iconName": "arrow-ne",
     "content": "\\e990"
   },
   {
     "iconName": "arrow-nw",
     "content": "\\e991"
+  },
+  {
+    "iconName": "arrow-s",
+    "content": "\\e994"
   },
   {
     "iconName": "arrow-s-ne",
@@ -608,10 +596,6 @@
     "content": "\\e993"
   },
   {
-    "iconName": "arrow-s",
-    "content": "\\e994"
-  },
-  {
     "iconName": "arrow-se",
     "content": "\\e995"
   },
@@ -620,16 +604,16 @@
     "content": "\\e996"
   },
   {
+    "iconName": "arrow-w",
+    "content": "\\e999"
+  },
+  {
     "iconName": "arrow-w-ne",
     "content": "\\e997"
   },
   {
     "iconName": "arrow-w-se",
     "content": "\\e998"
-  },
-  {
-    "iconName": "arrow-w",
-    "content": "\\e999"
   },
   {
     "iconName": "arrows-away",
@@ -648,12 +632,12 @@
     "content": "\\e99d"
   },
   {
-    "iconName": "award-alt",
-    "content": "\\e99e"
-  },
-  {
     "iconName": "award",
     "content": "\\e99f"
+  },
+  {
+    "iconName": "award-alt",
+    "content": "\\e99e"
   },
   {
     "iconName": "badge-delete",
@@ -704,6 +688,10 @@
     "content": "\\e9ab"
   },
   {
+    "iconName": "bed",
+    "content": "\\e9ae"
+  },
+  {
     "iconName": "bed-double",
     "content": "\\e9ac"
   },
@@ -712,20 +700,16 @@
     "content": "\\e9ad"
   },
   {
-    "iconName": "bed",
-    "content": "\\e9ae"
-  },
-  {
     "iconName": "beer",
     "content": "\\e9af"
   },
   {
-    "iconName": "bell-alt",
-    "content": "\\e9b0"
-  },
-  {
     "iconName": "bell",
     "content": "\\e9b1"
+  },
+  {
+    "iconName": "bell-alt",
+    "content": "\\e9b0"
   },
   {
     "iconName": "bicycle",
@@ -740,24 +724,24 @@
     "content": "\\e9b4"
   },
   {
-    "iconName": "bin-full",
-    "content": "\\e9b5"
-  },
-  {
     "iconName": "bin",
     "content": "\\e9b6"
   },
   {
-    "iconName": "book-open-text",
-    "content": "\\e9b7"
+    "iconName": "bin-full",
+    "content": "\\e9b5"
+  },
+  {
+    "iconName": "book",
+    "content": "\\e9b9"
   },
   {
     "iconName": "book-open",
     "content": "\\e9b8"
   },
   {
-    "iconName": "book",
-    "content": "\\e9b9"
+    "iconName": "book-open-text",
+    "content": "\\e9b7"
   },
   {
     "iconName": "bookmark",
@@ -776,16 +760,16 @@
     "content": "\\e9bd"
   },
   {
+    "iconName": "bus",
+    "content": "\\e9c0"
+  },
+  {
     "iconName": "bus-mini",
     "content": "\\e9be"
   },
   {
     "iconName": "bus-small",
     "content": "\\e9bf"
-  },
-  {
-    "iconName": "bus",
-    "content": "\\e9c0"
   },
   {
     "iconName": "cache",
@@ -828,6 +812,10 @@
     "content": "\\e9ca"
   },
   {
+    "iconName": "car",
+    "content": "\\e9d2"
+  },
+  {
     "iconName": "car-alt",
     "content": "\\e9cb"
   },
@@ -856,16 +844,12 @@
     "content": "\\e9d1"
   },
   {
-    "iconName": "car",
-    "content": "\\e9d2"
+    "iconName": "card",
+    "content": "\\e9d4"
   },
   {
     "iconName": "card-up",
     "content": "\\e9d3"
-  },
-  {
-    "iconName": "card",
-    "content": "\\e9d4"
   },
   {
     "iconName": "care-n",
@@ -894,6 +878,10 @@
   {
     "iconName": "carry",
     "content": "\\e9db"
+  },
+  {
+    "iconName": "cart",
+    "content": "\\e9e4"
   },
   {
     "iconName": "cart-add",
@@ -928,16 +916,16 @@
     "content": "\\e9e3"
   },
   {
-    "iconName": "cart",
-    "content": "\\e9e4"
-  },
-  {
     "iconName": "center",
     "content": "\\e9e5"
   },
   {
     "iconName": "certificate",
     "content": "\\e9e6"
+  },
+  {
+    "iconName": "charging",
+    "content": "\\e9ea"
   },
   {
     "iconName": "charging-fast",
@@ -952,16 +940,16 @@
     "content": "\\e9e9"
   },
   {
-    "iconName": "charging",
-    "content": "\\e9ea"
+    "iconName": "chart-area",
+    "content": "\\e9ec"
   },
   {
     "iconName": "chart-area-stack",
     "content": "\\e9eb"
   },
   {
-    "iconName": "chart-area",
-    "content": "\\e9ec"
+    "iconName": "chart-bars",
+    "content": "\\e9ef"
   },
   {
     "iconName": "chart-bars-axis",
@@ -972,28 +960,24 @@
     "content": "\\e9ee"
   },
   {
-    "iconName": "chart-bars",
-    "content": "\\e9ef"
+    "iconName": "chart-line",
+    "content": "\\e9f1"
   },
   {
     "iconName": "chart-line-dots",
     "content": "\\e9f0"
   },
   {
-    "iconName": "chart-line",
-    "content": "\\e9f1"
-  },
-  {
     "iconName": "chart-lines",
     "content": "\\e9f2"
   },
   {
-    "iconName": "chart-pie-alt",
-    "content": "\\e9f3"
-  },
-  {
     "iconName": "chart-pie",
     "content": "\\e9f4"
+  },
+  {
+    "iconName": "chart-pie-alt",
+    "content": "\\e9f3"
   },
   {
     "iconName": "chip",
@@ -1004,16 +988,16 @@
     "content": "\\e9f6"
   },
   {
+    "iconName": "clipboard",
+    "content": "\\e9f9"
+  },
+  {
     "iconName": "clipboard-add",
     "content": "\\e9f7"
   },
   {
     "iconName": "clipboard-paste",
     "content": "\\e9f8"
-  },
-  {
-    "iconName": "clipboard",
-    "content": "\\e9f9"
   },
   {
     "iconName": "clock",
@@ -1036,6 +1020,10 @@
     "content": "\\e9fe"
   },
   {
+    "iconName": "cloud",
+    "content": "\\ea02"
+  },
+  {
     "iconName": "cloud-download",
     "content": "\\e9ff"
   },
@@ -1048,8 +1036,8 @@
     "content": "\\ea01"
   },
   {
-    "iconName": "cloud",
-    "content": "\\ea02"
+    "iconName": "code",
+    "content": "\\ea0b"
   },
   {
     "iconName": "code-add",
@@ -1084,16 +1072,16 @@
     "content": "\\ea0a"
   },
   {
-    "iconName": "code",
-    "content": "\\ea0b"
+    "iconName": "coffee",
+    "content": "\\ea0d"
   },
   {
     "iconName": "coffee-togo",
     "content": "\\ea0c"
   },
   {
-    "iconName": "coffee",
-    "content": "\\ea0d"
+    "iconName": "coins",
+    "content": "\\ea10"
   },
   {
     "iconName": "coins-alt",
@@ -1104,8 +1092,8 @@
     "content": "\\ea0f"
   },
   {
-    "iconName": "coins",
-    "content": "\\ea10"
+    "iconName": "comment",
+    "content": "\\ea13"
   },
   {
     "iconName": "comment-pending",
@@ -1116,20 +1104,16 @@
     "content": "\\ea12"
   },
   {
-    "iconName": "comment",
-    "content": "\\ea13"
-  },
-  {
     "iconName": "comments",
     "content": "\\ea14"
   },
   {
-    "iconName": "compass-alt",
-    "content": "\\ea15"
-  },
-  {
     "iconName": "compass",
     "content": "\\ea16"
+  },
+  {
+    "iconName": "compass-alt",
+    "content": "\\ea15"
   },
   {
     "iconName": "controller",
@@ -1184,6 +1168,10 @@
     "content": "\\ea23"
   },
   {
+    "iconName": "database",
+    "content": "\\ea2c"
+  },
+  {
     "iconName": "database-add",
     "content": "\\ea24"
   },
@@ -1216,8 +1204,8 @@
     "content": "\\ea2b"
   },
   {
-    "iconName": "database",
-    "content": "\\ea2c"
+    "iconName": "delete",
+    "content": "\\ea2f"
   },
   {
     "iconName": "delete-circle",
@@ -1226,10 +1214,6 @@
   {
     "iconName": "delete-square",
     "content": "\\ea2e"
-  },
-  {
-    "iconName": "delete",
-    "content": "\\ea2f"
   },
   {
     "iconName": "deny",
@@ -1252,12 +1236,12 @@
     "content": "\\ea34"
   },
   {
-    "iconName": "direction-both",
-    "content": "\\ea35"
-  },
-  {
     "iconName": "direction",
     "content": "\\ea36"
+  },
+  {
+    "iconName": "direction-both",
+    "content": "\\ea35"
   },
   {
     "iconName": "disability",
@@ -1276,12 +1260,12 @@
     "content": "\\ea3a"
   },
   {
-    "iconName": "dog-deny",
-    "content": "\\ea3b"
-  },
-  {
     "iconName": "dog",
     "content": "\\ea3c"
+  },
+  {
+    "iconName": "dog-deny",
+    "content": "\\ea3b"
   },
   {
     "iconName": "down-square",
@@ -1292,6 +1276,10 @@
     "content": "\\ea3e"
   },
   {
+    "iconName": "drive",
+    "content": "\\ea41"
+  },
+  {
     "iconName": "drive-down",
     "content": "\\ea3f"
   },
@@ -1300,12 +1288,12 @@
     "content": "\\ea40"
   },
   {
-    "iconName": "drive",
-    "content": "\\ea41"
-  },
-  {
     "iconName": "drop",
     "content": "\\ea42"
+  },
+  {
+    "iconName": "duplicate",
+    "content": "\\ea45"
   },
   {
     "iconName": "duplicate-add",
@@ -1316,10 +1304,6 @@
     "content": "\\ea44"
   },
   {
-    "iconName": "duplicate",
-    "content": "\\ea45"
-  },
-  {
     "iconName": "eat",
     "content": "\\ea46"
   },
@@ -1328,12 +1312,16 @@
     "content": "\\ea47"
   },
   {
+    "iconName": "edit",
+    "content": "\\ea49"
+  },
+  {
     "iconName": "edit-square",
     "content": "\\ea48"
   },
   {
-    "iconName": "edit",
-    "content": "\\ea49"
+    "iconName": "electric-car",
+    "content": "\\ea4c"
   },
   {
     "iconName": "electric-car-alt",
@@ -1344,8 +1332,8 @@
     "content": "\\ea4b"
   },
   {
-    "iconName": "electric-car",
-    "content": "\\ea4c"
+    "iconName": "ellipsis",
+    "content": "\\ea4f"
   },
   {
     "iconName": "ellipsis-square",
@@ -1356,10 +1344,6 @@
     "content": "\\ea4e"
   },
   {
-    "iconName": "ellipsis",
-    "content": "\\ea4f"
-  },
-  {
     "iconName": "emission-off",
     "content": "\\ea50"
   },
@@ -1368,20 +1352,20 @@
     "content": "\\ea51"
   },
   {
-    "iconName": "export-alt",
-    "content": "\\ea52"
-  },
-  {
     "iconName": "export",
     "content": "\\ea53"
   },
   {
-    "iconName": "eye-off",
-    "content": "\\ea54"
+    "iconName": "export-alt",
+    "content": "\\ea52"
   },
   {
     "iconName": "eye",
     "content": "\\ea55"
+  },
+  {
+    "iconName": "eye-off",
+    "content": "\\ea54"
   },
   {
     "iconName": "fence",
@@ -1390,6 +1374,10 @@
   {
     "iconName": "ferry",
     "content": "\\ea57"
+  },
+  {
+    "iconName": "file",
+    "content": "\\ea6b"
   },
   {
     "iconName": "file-add",
@@ -1468,8 +1456,8 @@
     "content": "\\ea6a"
   },
   {
-    "iconName": "file",
-    "content": "\\ea6b"
+    "iconName": "files",
+    "content": "\\ea74"
   },
   {
     "iconName": "files-add",
@@ -1504,12 +1492,12 @@
     "content": "\\ea73"
   },
   {
-    "iconName": "files",
-    "content": "\\ea74"
-  },
-  {
     "iconName": "filter",
     "content": "\\ea75"
+  },
+  {
+    "iconName": "fish",
+    "content": "\\ea78"
   },
   {
     "iconName": "fish-carp",
@@ -1518,10 +1506,6 @@
   {
     "iconName": "fish-catfish",
     "content": "\\ea77"
-  },
-  {
-    "iconName": "fish",
-    "content": "\\ea78"
   },
   {
     "iconName": "flag",
@@ -1540,6 +1524,10 @@
     "content": "\\ea7c"
   },
   {
+    "iconName": "folder",
+    "content": "\\ea80"
+  },
+  {
     "iconName": "folder-add",
     "content": "\\ea7d"
   },
@@ -1550,10 +1538,6 @@
   {
     "iconName": "folder-symlink",
     "content": "\\ea7f"
-  },
-  {
-    "iconName": "folder",
-    "content": "\\ea80"
   },
   {
     "iconName": "frame",
@@ -1596,12 +1580,12 @@
     "content": "\\ea8a"
   },
   {
-    "iconName": "git-merged-alt",
-    "content": "\\ea8b"
-  },
-  {
     "iconName": "git-merged",
     "content": "\\ea8c"
+  },
+  {
+    "iconName": "git-merged-alt",
+    "content": "\\ea8b"
   },
   {
     "iconName": "git-pull",
@@ -1632,56 +1616,56 @@
     "content": "\\ea93"
   },
   {
-    "iconName": "globe-alt",
-    "content": "\\ea94"
-  },
-  {
     "iconName": "globe",
     "content": "\\ea95"
+  },
+  {
+    "iconName": "globe-alt",
+    "content": "\\ea94"
   },
   {
     "iconName": "green",
     "content": "\\ea96"
   },
   {
-    "iconName": "growth-alt",
-    "content": "\\ea97"
-  },
-  {
     "iconName": "growth",
     "content": "\\ea98"
+  },
+  {
+    "iconName": "growth-alt",
+    "content": "\\ea97"
   },
   {
     "iconName": "handshake",
     "content": "\\ea99"
   },
   {
-    "iconName": "headphones-alt",
-    "content": "\\ea9a"
-  },
-  {
     "iconName": "headphones",
     "content": "\\ea9b"
+  },
+  {
+    "iconName": "headphones-alt",
+    "content": "\\ea9a"
   },
   {
     "iconName": "heart",
     "content": "\\ea9c"
   },
   {
-    "iconName": "help-alt",
-    "content": "\\ea9d"
-  },
-  {
     "iconName": "help",
     "content": "\\ea9e"
   },
   {
-    "iconName": "highway-alt",
-    "content": "\\ea9f"
+    "iconName": "help-alt",
+    "content": "\\ea9d"
   },
   {
     "iconName": "highway",
     "content": "\\eaa0"
+  },
+  {
+    "iconName": "highway-alt",
+    "content": "\\ea9f"
   },
   {
     "iconName": "history-back",
@@ -1696,12 +1680,12 @@
     "content": "\\eaa3"
   },
   {
-    "iconName": "hourglass-alt",
-    "content": "\\eaa4"
-  },
-  {
     "iconName": "hourglass",
     "content": "\\eaa5"
+  },
+  {
+    "iconName": "hourglass-alt",
+    "content": "\\eaa4"
   },
   {
     "iconName": "human",
@@ -1716,20 +1700,20 @@
     "content": "\\eaa8"
   },
   {
-    "iconName": "import-alt",
-    "content": "\\eaa9"
-  },
-  {
     "iconName": "import",
     "content": "\\eaaa"
   },
   {
-    "iconName": "inbox-full",
-    "content": "\\eaab"
+    "iconName": "import-alt",
+    "content": "\\eaa9"
   },
   {
     "iconName": "inbox",
     "content": "\\eaac"
+  },
+  {
+    "iconName": "inbox-full",
+    "content": "\\eaab"
   },
   {
     "iconName": "industrial",
@@ -1742,6 +1726,10 @@
   {
     "iconName": "internet",
     "content": "\\eaaf"
+  },
+  {
+    "iconName": "issue",
+    "content": "\\eab4"
   },
   {
     "iconName": "issue-cycle-ccw",
@@ -1760,8 +1748,8 @@
     "content": "\\eab3"
   },
   {
-    "iconName": "issue",
-    "content": "\\eab4"
+    "iconName": "key",
+    "content": "\\eabb"
   },
   {
     "iconName": "key-alt",
@@ -1788,16 +1776,12 @@
     "content": "\\eaba"
   },
   {
-    "iconName": "key",
-    "content": "\\eabb"
+    "iconName": "keyboard",
+    "content": "\\eabd"
   },
   {
     "iconName": "keyboard-alt",
     "content": "\\eabc"
-  },
-  {
-    "iconName": "keyboard",
-    "content": "\\eabd"
   },
   {
     "iconName": "keynote",
@@ -1820,16 +1804,16 @@
     "content": "\\eac2"
   },
   {
+    "iconName": "layout",
+    "content": "\\eac5"
+  },
+  {
     "iconName": "layout-alt",
     "content": "\\eac3"
   },
   {
     "iconName": "layout-simple",
     "content": "\\eac4"
-  },
-  {
-    "iconName": "layout",
-    "content": "\\eac5"
   },
   {
     "iconName": "leaf",
@@ -1844,6 +1828,10 @@
     "content": "\\eac8"
   },
   {
+    "iconName": "lightbulb",
+    "content": "\\eacb"
+  },
+  {
     "iconName": "lightbulb-off",
     "content": "\\eac9"
   },
@@ -1852,32 +1840,32 @@
     "content": "\\eaca"
   },
   {
-    "iconName": "lightbulb",
-    "content": "\\eacb"
-  },
-  {
     "iconName": "lighthouse",
     "content": "\\eacc"
-  },
-  {
-    "iconName": "limit-alt",
-    "content": "\\eacd"
   },
   {
     "iconName": "limit",
     "content": "\\eace"
   },
   {
-    "iconName": "link-alt",
-    "content": "\\eacf"
+    "iconName": "limit-alt",
+    "content": "\\eacd"
   },
   {
     "iconName": "link",
     "content": "\\ead0"
   },
   {
+    "iconName": "link-alt",
+    "content": "\\eacf"
+  },
+  {
     "iconName": "list",
     "content": "\\ead1"
+  },
+  {
+    "iconName": "location",
+    "content": "\\ead4"
   },
   {
     "iconName": "location-area",
@@ -1886,10 +1874,6 @@
   {
     "iconName": "location-spot",
     "content": "\\ead3"
-  },
-  {
-    "iconName": "location",
-    "content": "\\ead4"
   },
   {
     "iconName": "lock",
@@ -1912,48 +1896,52 @@
     "content": "\\ead9"
   },
   {
-    "iconName": "mail-read-alt",
-    "content": "\\eada"
+    "iconName": "mail",
+    "content": "\\eadd"
   },
   {
     "iconName": "mail-read",
     "content": "\\eadb"
   },
   {
+    "iconName": "mail-read-alt",
+    "content": "\\eada"
+  },
+  {
     "iconName": "mail-send",
     "content": "\\eadc"
-  },
-  {
-    "iconName": "mail",
-    "content": "\\eadd"
-  },
-  {
-    "iconName": "map-off",
-    "content": "\\eade"
   },
   {
     "iconName": "map",
     "content": "\\eadf"
   },
   {
-    "iconName": "markup",
-    "content": "\\eae0"
+    "iconName": "map-off",
+    "content": "\\eade"
   },
   {
-    "iconName": "memory-card",
-    "content": "\\eae1"
+    "iconName": "markup",
+    "content": "\\eae0"
   },
   {
     "iconName": "memory",
     "content": "\\eae2"
   },
   {
-    "iconName": "menu-alt",
-    "content": "\\eae3"
+    "iconName": "memory-card",
+    "content": "\\eae1"
   },
   {
     "iconName": "menu",
     "content": "\\eae4"
+  },
+  {
+    "iconName": "menu-alt",
+    "content": "\\eae3"
+  },
+  {
+    "iconName": "mesh",
+    "content": "\\eae7"
   },
   {
     "iconName": "mesh-alt",
@@ -1962,10 +1950,6 @@
   {
     "iconName": "mesh-globe",
     "content": "\\eae6"
-  },
-  {
-    "iconName": "mesh",
-    "content": "\\eae7"
   },
   {
     "iconName": "microphone",
@@ -2016,16 +2000,16 @@
     "content": "\\eaf3"
   },
   {
+    "iconName": "ok",
+    "content": "\\eaf6"
+  },
+  {
     "iconName": "ok-circle",
     "content": "\\eaf4"
   },
   {
     "iconName": "ok-square",
     "content": "\\eaf5"
-  },
-  {
-    "iconName": "ok",
-    "content": "\\eaf6"
   },
   {
     "iconName": "paint-roller",
@@ -2044,6 +2028,10 @@
     "content": "\\eafa"
   },
   {
+    "iconName": "parcel",
+    "content": "\\eafd"
+  },
+  {
     "iconName": "parcel-down",
     "content": "\\eafb"
   },
@@ -2052,16 +2040,12 @@
     "content": "\\eafc"
   },
   {
-    "iconName": "parcel",
-    "content": "\\eafd"
+    "iconName": "parking",
+    "content": "\\eaff"
   },
   {
     "iconName": "parking-off",
     "content": "\\eafe"
-  },
-  {
-    "iconName": "parking",
-    "content": "\\eaff"
   },
   {
     "iconName": "patch-double",
@@ -2072,20 +2056,20 @@
     "content": "\\eb01"
   },
   {
-    "iconName": "pay-phone-small",
-    "content": "\\eb02"
-  },
-  {
     "iconName": "pay-phone",
     "content": "\\eb03"
   },
   {
-    "iconName": "pen-line",
-    "content": "\\eb04"
+    "iconName": "pay-phone-small",
+    "content": "\\eb02"
   },
   {
     "iconName": "pen",
     "content": "\\eb05"
+  },
+  {
+    "iconName": "pen-line",
+    "content": "\\eb04"
   },
   {
     "iconName": "pencil",
@@ -2094,6 +2078,10 @@
   {
     "iconName": "percent",
     "content": "\\eb07"
+  },
+  {
+    "iconName": "phone",
+    "content": "\\eb0c"
   },
   {
     "iconName": "phone-mobile",
@@ -2112,8 +2100,28 @@
     "content": "\\eb0b"
   },
   {
-    "iconName": "phone",
-    "content": "\\eb0c"
+    "iconName": "php-worker",
+    "content": "\\ebb9"
+  },
+  {
+    "iconName": "php-worker-arrow-se",
+    "content": "\\ebba"
+  },
+  {
+    "iconName": "php-worker-cycle",
+    "content": "\\ebbb"
+  },
+  {
+    "iconName": "php-workers-middle",
+    "content": "\\ebbc"
+  },
+  {
+    "iconName": "php-workers-ok",
+    "content": "\\ebbd"
+  },
+  {
+    "iconName": "php-workers-top",
+    "content": "\\ebbe"
   },
   {
     "iconName": "piggy",
@@ -2128,12 +2136,76 @@
     "content": "\\eb0f"
   },
   {
+    "iconName": "plug",
+    "content": "\\eb11"
+  },
+  {
     "iconName": "plug-type-two",
     "content": "\\eb10"
   },
   {
-    "iconName": "plug",
-    "content": "\\eb11"
+    "iconName": "pod",
+    "content": "\\ebad"
+  },
+  {
+    "iconName": "pod-add",
+    "content": "\\ebae"
+  },
+  {
+    "iconName": "pod-cpu",
+    "content": "\\ebbf"
+  },
+  {
+    "iconName": "pod-cycle",
+    "content": "\\ebc0"
+  },
+  {
+    "iconName": "pod-delete",
+    "content": "\\ebaf"
+  },
+  {
+    "iconName": "pod-down",
+    "content": "\\ebb0"
+  },
+  {
+    "iconName": "pod-memory",
+    "content": "\\ebc1"
+  },
+  {
+    "iconName": "pod-network",
+    "content": "\\ebb1"
+  },
+  {
+    "iconName": "pod-ok",
+    "content": "\\ebb2"
+  },
+  {
+    "iconName": "pod-pending",
+    "content": "\\ebb3"
+  },
+  {
+    "iconName": "pod-php",
+    "content": "\\ebc2"
+  },
+  {
+    "iconName": "pod-remove",
+    "content": "\\ebb4"
+  },
+  {
+    "iconName": "pod-small",
+    "content": "\\ebb5"
+  },
+  {
+    "iconName": "pod-time",
+    "content": "\\ebb6"
+  },
+  {
+    "iconName": "pod-up",
+    "content": "\\ebb7"
+  },
+  {
+    "iconName": "pods",
+    "content": "\\ebb8"
   },
   {
     "iconName": "point-e",
@@ -2148,12 +2220,12 @@
     "content": "\\eb14"
   },
   {
-    "iconName": "power-plug",
-    "content": "\\eb15"
-  },
-  {
     "iconName": "power",
     "content": "\\eb16"
+  },
+  {
+    "iconName": "power-plug",
+    "content": "\\eb15"
   },
   {
     "iconName": "present",
@@ -2180,28 +2252,28 @@
     "content": "\\eb1c"
   },
   {
-    "iconName": "puzzle-alt",
-    "content": "\\eb1d"
-  },
-  {
     "iconName": "puzzle",
     "content": "\\eb1e"
   },
   {
-    "iconName": "read-alt",
-    "content": "\\eb1f"
+    "iconName": "puzzle-alt",
+    "content": "\\eb1d"
   },
   {
     "iconName": "read",
     "content": "\\eb20"
   },
   {
-    "iconName": "receipt-end",
-    "content": "\\eb21"
+    "iconName": "read-alt",
+    "content": "\\eb1f"
   },
   {
     "iconName": "receipt",
     "content": "\\eb22"
+  },
+  {
+    "iconName": "receipt-end",
+    "content": "\\eb21"
   },
   {
     "iconName": "recycle-ccw",
@@ -2212,6 +2284,10 @@
     "content": "\\eb24"
   },
   {
+    "iconName": "remove",
+    "content": "\\eb27"
+  },
+  {
     "iconName": "remove-circle",
     "content": "\\eb25"
   },
@@ -2220,8 +2296,8 @@
     "content": "\\eb26"
   },
   {
-    "iconName": "remove",
-    "content": "\\eb27"
+    "iconName": "repo",
+    "content": "\\eb2a"
   },
   {
     "iconName": "repo-add",
@@ -2230,10 +2306,6 @@
   {
     "iconName": "repo-down",
     "content": "\\eb29"
-  },
-  {
-    "iconName": "repo",
-    "content": "\\eb2a"
   },
   {
     "iconName": "role-admin",
@@ -2256,6 +2328,10 @@
     "content": "\\eb2f"
   },
   {
+    "iconName": "routing",
+    "content": "\\eb32"
+  },
+  {
     "iconName": "routing-away",
     "content": "\\eb30"
   },
@@ -2264,12 +2340,12 @@
     "content": "\\eb31"
   },
   {
-    "iconName": "routing",
-    "content": "\\eb32"
-  },
-  {
     "iconName": "ruler",
     "content": "\\eb33"
+  },
+  {
+    "iconName": "safe",
+    "content": "\\eb36"
   },
   {
     "iconName": "safe-alt",
@@ -2280,10 +2356,6 @@
     "content": "\\eb35"
   },
   {
-    "iconName": "safe",
-    "content": "\\eb36"
-  },
-  {
     "iconName": "sattelite",
     "content": "\\eb37"
   },
@@ -2292,12 +2364,16 @@
     "content": "\\eb38"
   },
   {
+    "iconName": "section",
+    "content": "\\eb3a"
+  },
+  {
     "iconName": "section-alt",
     "content": "\\eb39"
   },
   {
-    "iconName": "section",
-    "content": "\\eb3a"
+    "iconName": "security",
+    "content": "\\eb3f"
   },
   {
     "iconName": "security-add",
@@ -2316,20 +2392,20 @@
     "content": "\\eb3e"
   },
   {
-    "iconName": "security",
-    "content": "\\eb3f"
-  },
-  {
     "iconName": "semaphore",
     "content": "\\eb40"
+  },
+  {
+    "iconName": "server",
+    "content": "\\eb42"
   },
   {
     "iconName": "server-link",
     "content": "\\eb41"
   },
   {
-    "iconName": "server",
-    "content": "\\eb42"
+    "iconName": "settings",
+    "content": "\\eb4b"
   },
   {
     "iconName": "settings-add",
@@ -2364,10 +2440,6 @@
     "content": "\\eb4a"
   },
   {
-    "iconName": "settings",
-    "content": "\\eb4b"
-  },
-  {
     "iconName": "sex-female",
     "content": "\\eb4c"
   },
@@ -2376,24 +2448,24 @@
     "content": "\\eb4d"
   },
   {
-    "iconName": "share-alt",
-    "content": "\\eb4e"
-  },
-  {
     "iconName": "share",
     "content": "\\eb4f"
+  },
+  {
+    "iconName": "share-alt",
+    "content": "\\eb4e"
   },
   {
     "iconName": "shop",
     "content": "\\eb50"
   },
   {
-    "iconName": "sign-document",
-    "content": "\\eb51"
-  },
-  {
     "iconName": "sign",
     "content": "\\eb52"
+  },
+  {
+    "iconName": "sign-document",
+    "content": "\\eb51"
   },
   {
     "iconName": "signal",
@@ -2404,36 +2476,36 @@
     "content": "\\eb54"
   },
   {
-    "iconName": "sort-asc-horizontal-alt",
-    "content": "\\eb55"
-  },
-  {
     "iconName": "sort-asc-horizontal",
     "content": "\\eb56"
   },
   {
-    "iconName": "sort-asc-vertical-alt",
-    "content": "\\eb57"
+    "iconName": "sort-asc-horizontal-alt",
+    "content": "\\eb55"
   },
   {
     "iconName": "sort-asc-vertical",
     "content": "\\eb58"
   },
   {
-    "iconName": "sort-desc-horizontal-alt",
-    "content": "\\eb59"
+    "iconName": "sort-asc-vertical-alt",
+    "content": "\\eb57"
   },
   {
     "iconName": "sort-desc-horizontal",
     "content": "\\eb5a"
   },
   {
-    "iconName": "sort-desc-vertical-alt",
-    "content": "\\eb5b"
+    "iconName": "sort-desc-horizontal-alt",
+    "content": "\\eb59"
   },
   {
     "iconName": "sort-desc-vertical",
     "content": "\\eb5c"
+  },
+  {
+    "iconName": "sort-desc-vertical-alt",
+    "content": "\\eb5b"
   },
   {
     "iconName": "speaker",
@@ -2446,6 +2518,10 @@
   {
     "iconName": "ssd",
     "content": "\\eb5f"
+  },
+  {
+    "iconName": "stack",
+    "content": "\\eb68"
   },
   {
     "iconName": "stack-add",
@@ -2480,8 +2556,8 @@
     "content": "\\eb67"
   },
   {
-    "iconName": "stack",
-    "content": "\\eb68"
+    "iconName": "star",
+    "content": "\\eb6b"
   },
   {
     "iconName": "star-half",
@@ -2492,8 +2568,20 @@
     "content": "\\eb6a"
   },
   {
-    "iconName": "star",
-    "content": "\\eb6b"
+    "iconName": "status-error",
+    "content": "\\eba9"
+  },
+  {
+    "iconName": "status-ok",
+    "content": "\\ebaa"
+  },
+  {
+    "iconName": "status-pending",
+    "content": "\\ebab"
+  },
+  {
+    "iconName": "status-warning",
+    "content": "\\ebac"
   },
   {
     "iconName": "stopwatch",
@@ -2520,24 +2608,28 @@
     "content": "\\eb71"
   },
   {
-    "iconName": "sync-square",
-    "content": "\\eb72"
-  },
-  {
     "iconName": "sync",
     "content": "\\eb73"
+  },
+  {
+    "iconName": "sync-square",
+    "content": "\\eb72"
   },
   {
     "iconName": "tag",
     "content": "\\eb74"
   },
   {
+    "iconName": "target",
+    "content": "\\eb76"
+  },
+  {
     "iconName": "target-alt",
     "content": "\\eb75"
   },
   {
-    "iconName": "target",
-    "content": "\\eb76"
+    "iconName": "temperature",
+    "content": "\\eb79"
   },
   {
     "iconName": "temperature-hi",
@@ -2546,10 +2638,6 @@
   {
     "iconName": "temperature-low",
     "content": "\\eb78"
-  },
-  {
-    "iconName": "temperature",
-    "content": "\\eb79"
   },
   {
     "iconName": "terminal",
@@ -2592,12 +2680,12 @@
     "content": "\\eb83"
   },
   {
-    "iconName": "transport-away",
-    "content": "\\eb84"
-  },
-  {
     "iconName": "transport",
     "content": "\\eb85"
+  },
+  {
+    "iconName": "transport-away",
+    "content": "\\eb84"
   },
   {
     "iconName": "tree",
@@ -2680,6 +2768,10 @@
     "content": "\\eb99"
   },
   {
+    "iconName": "volume",
+    "content": "\\eb9d"
+  },
+  {
     "iconName": "volume-high",
     "content": "\\eb9a"
   },
@@ -2690,10 +2782,6 @@
   {
     "iconName": "volume-mute",
     "content": "\\eb9c"
-  },
-  {
-    "iconName": "volume",
-    "content": "\\eb9d"
   },
   {
     "iconName": "wallet",
