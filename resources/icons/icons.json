@@ -376,6 +376,14 @@
     "content": "\\e95d"
   },
   {
+    "iconName": "pause-alt",
+    "content": "\\ebc3"
+  },
+  {
+    "iconName": "play-alt",
+    "content": "\\ebc4"
+  },
+  {
     "iconName": "account-circle",
     "content": "\\e95e"
   },
