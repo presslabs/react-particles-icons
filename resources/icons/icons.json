@@ -1,5 +1,4 @@
-[
-  {
+[{
     "iconName": "algolia",
     "content": "\\e900"
   },
@@ -374,6 +373,22 @@
   {
     "iconName": "zthree",
     "content": "\\e95d"
+  },
+  {
+    "iconName": "earth-alt",
+    "content": "\\ebc5"
+  },
+  {
+    "iconName": "earth",
+    "content": "\\ebc6"
+  },
+  {
+    "iconName": "languages-alt",
+    "content": "\\ebc7"
+  },
+  {
+    "iconName": "languages",
+    "content": "\\ebc8"
   },
   {
     "iconName": "pause-alt",
